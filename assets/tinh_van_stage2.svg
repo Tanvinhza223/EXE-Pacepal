@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<defs>
+<radialGradient id="v2g"><stop offset="0%" stop-color="#C77BFF" stop-opacity="0.34"/><stop offset="100%" stop-color="#A04BD8" stop-opacity="0"/></radialGradient>
+<linearGradient id="v2r" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#8E2D9E"/><stop offset="50%" stop-color="#D9479E"/><stop offset="100%" stop-color="#FF8AC2"/></linearGradient>
+<radialGradient id="v2o" cx="42%" cy="35%"><stop offset="0%" stop-color="#FFF3C4"/><stop offset="55%" stop-color="#FFC23F"/><stop offset="100%" stop-color="#D97B1E"/></radialGradient>
+<radialGradient id="v2og"><stop offset="0%" stop-color="#FFD166" stop-opacity="0.45"/><stop offset="100%" stop-color="#FFD166" stop-opacity="0"/></radialGradient>
+</defs>
+<ellipse cx="100" cy="172" rx="52" ry="11" fill="#6E5E86" opacity="0.7"/>
+<ellipse cx="100" cy="169" rx="48" ry="9" fill="#857399" opacity="0.7"/>
+<circle cx="100" cy="128" r="38" fill="url(#v2g)"/>
+<path d="M97 166 C96 160 97 156 98 152 L103 152 C104 157 104 162 104 166 Z" fill="#6E2D7E"/>
+<circle cx="100" cy="134" r="18" fill="url(#v2og)"/>
+<ellipse cx="100" cy="132" rx="10" ry="11" fill="url(#v2o)"/>
+<path d="M95 126 C97.5 131 97 136 94 140 M100 124 C102.5 130 102.5 136 100 141 M105 126 C107 131 106.5 136 104 140" stroke="#A8531E" stroke-width="1.1" fill="none" opacity="0.75"/>
+<path d="M98 122 C92 112 92 100 100 90 C96 102 97 112 100 120 Z" fill="url(#v2r)"/>
+<path d="M102 122 C108 112 108 100 100 90 C104 102 103 112 100 120 Z" fill="url(#v2r)" opacity="0.9"/>
+<path d="M97 122 C88 116 82 106 82 94 C87 104 93 114 100 120 Z" fill="url(#v2r)" opacity="0.95"/>
+<path d="M103 122 C112 116 118 106 118 94 C113 104 107 114 100 120 Z" fill="url(#v2r)" opacity="0.95"/>
+<path d="M84 96 C88 106 94 114 100 119" stroke="#FFB0D8" stroke-width="0.8" fill="none" opacity="0.75"/>
+<path d="M116 96 C112 106 106 114 100 119" stroke="#FFB0D8" stroke-width="0.8" fill="none" opacity="0.75"/>
+<circle cx="76" cy="110" r="1.4" fill="#F2C9FF" opacity="0.85"/>
+<circle cx="126" cy="104" r="1.3" fill="#FFD3EC" opacity="0.8"/>
+<path d="M70 86 l1.4 3.2 3.2 1.4 -3.2 1.4 -1.4 3.2 -1.4 -3.2 -3.2 -1.4 3.2 -1.4 Z" fill="#F2C9FF" opacity="0.9"/>
+<path d="M128 122 l1.2 2.8 2.8 1.2 -2.8 1.2 -1.2 2.8 -1.2 -2.8 -2.8 -1.2 2.8 -1.2 Z" fill="#FFD3EC" opacity="0.85"/>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<ellipse cx="100" cy="174" rx="54" ry="11" fill="#A99A82"/>
+<ellipse cx="100" cy="171" rx="50" ry="9" fill="#C6B79C"/>
+<path d="M96 170 C96 146 94 124 98 104 L104 104 C106 126 105 150 105 170 Z" fill="#5E5246"/>
+<path d="M100 158 L97 142 L101 128" stroke="#473D33" stroke-width="1.4" fill="none"/>
+<path d="M98 118 C88 112 78 110 70 112" stroke="#5E5246" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M102 114 C112 108 122 106 132 108" stroke="#5E5246" stroke-width="4" fill="none" stroke-linecap="round"/>
+<circle cx="70" cy="98" r="14" fill="#5A6E66"/>
+<circle cx="130" cy="96" r="14" fill="#5A6E66"/>
+<circle cx="100" cy="74" r="22" fill="#5A6E66"/>
+<circle cx="84" cy="84" r="15" fill="#5A6E66"/>
+<circle cx="116" cy="84" r="15" fill="#5A6E66"/>
+<circle cx="100" cy="70" r="18" fill="#6E827A"/>
+<circle cx="72" cy="95" r="10" fill="#6E827A"/>
+<circle cx="128" cy="93" r="10" fill="#6E827A"/>
+<!-- đèn tắt, một cái nứt -->
+<path d="M76 110 L76 118" stroke="#473D33" stroke-width="1.4"/>
+<ellipse cx="76" cy="125" rx="6" ry="7.5" fill="#8A8478"/>
+<path d="M72 119 C72 128 72 128 76 131 M80 119 C80 128 80 128 76 131" stroke="#6E6A5E" stroke-width="0.8" fill="none" opacity="0.8"/>
+<path d="M73 122 L78 128 L74 130" stroke="#5E5A50" stroke-width="1" fill="none"/>
+<path d="M124 106 L124 114" stroke="#473D33" stroke-width="1.4"/>
+<ellipse cx="124" cy="121" rx="6.5" ry="8" fill="#8A8478"/>
+<path d="M120 115 C120 124 120 124 124 127 M128 115 C128 124 128 124 124 127" stroke="#6E6A5E" stroke-width="0.8" fill="none" opacity="0.8"/>
+<!-- đèn rơi vỡ dưới đất -->
+<g transform="rotate(64 100 150)">
+<ellipse cx="100" cy="150" rx="7" ry="8.5" fill="#8A8478"/>
+<path d="M95 144 C95 154 95 154 100 157" stroke="#6E6A5E" stroke-width="0.9" fill="none"/>
+</g>
+<path d="M104 156 L110 162 M108 152 L114 156" stroke="#5E5A50" stroke-width="1" fill="none"/>
+<ellipse cx="80" cy="166" rx="4" ry="2" fill="#6E827A"/>
+<ellipse cx="124" cy="168" rx="4" ry="2" fill="#5A6E66"/>
+</svg>

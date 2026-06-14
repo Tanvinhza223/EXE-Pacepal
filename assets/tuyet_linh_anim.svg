@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<style>
+.tlA-glow{animation:tlA-pulse 3.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes tlA-pulse{0%,100%{opacity:.65;transform:scale(1)}50%{opacity:1;transform:scale(1.06)}}
+.tlA-sp{animation:tlA-tw 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.tlA-sp2{animation-delay:.8s}.tlA-sp3{animation-delay:1.5s}
+@keyframes tlA-tw{0%,100%{opacity:.15;transform:scale(.6)}50%{opacity:1;transform:scale(1.2)}}
+
+.tlA-core{animation:tlA-breathe 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes tlA-breathe{0%,100%{opacity:.85;transform:scale(1)}50%{opacity:1;transform:scale(1.18)}}
+.tlA-snow{animation:tlA-fall 5s linear infinite}
+.tlA-snow2{animation-delay:1.2s}.tlA-snow3{animation-delay:2.4s}.tlA-snow4{animation-delay:3.4s}.tlA-snow5{animation-delay:4.2s}
+@keyframes tlA-fall{0%{transform:translateY(-10px);opacity:0}25%{opacity:.9}80%{opacity:.7}100%{transform:translateY(28px);opacity:0}}
+</style>
+<defs>
+<radialGradient id="tl_g"><stop offset="0%" stop-color="#7FB8FF" stop-opacity="0.4"/><stop offset="60%" stop-color="#5C8FE8" stop-opacity="0.18"/><stop offset="100%" stop-color="#5C8FE8" stop-opacity="0"/></radialGradient>
+<radialGradient id="tl_core"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#BFDCFF"/></radialGradient>
+<linearGradient id="tl_pet" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#9CC4F2" stop-opacity="0.85"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.95"/></linearGradient>
+<linearGradient id="tl_stem" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#A8CCEE"/><stop offset="50%" stop-color="#E8F4FF"/><stop offset="100%" stop-color="#8FB8E2"/></linearGradient>
+</defs>
+<ellipse cx="100" cy="172" rx="54" ry="11" fill="#5E7A99" opacity="0.6"/>
+<ellipse cx="100" cy="169" rx="50" ry="9" fill="#7A98B8" opacity="0.6"/>
+<ellipse class="tlA-glow" cx="100" cy="92" rx="64" ry="58" fill="url(#tl_g)"/>
+<!-- thân phát sáng -->
+<path d="M100 166 C98 140 96 116 98 92" stroke="#5C8FE8" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.45"/>
+<path d="M100 166 C98 140 96 116 98 92" stroke="url(#tl_stem)" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M99 138 C108 132 114 124 116 114" stroke="#5C8FE8" stroke-width="4.5" fill="none" stroke-linecap="round" opacity="0.45"/>
+<path d="M99 138 C108 132 114 124 116 114" stroke="url(#tl_stem)" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<!-- bông chính -->
+<g transform="translate(98 66)">
+<g fill="url(#tl_pet)">
+<path d="M0 -8 C3 -16 2.5 -28 0 -38 C-2.5 -28 -3 -16 0 -8 Z"/>
+<path transform="rotate(45)" d="M0 -8 C3 -16 2.5 -28 0 -38 C-2.5 -28 -3 -16 0 -8 Z"/>
+<path transform="rotate(90)" d="M0 -8 C3 -16 2.5 -28 0 -38 C-2.5 -28 -3 -16 0 -8 Z"/>
+<path transform="rotate(135)" d="M0 -8 C3 -16 2.5 -28 0 -38 C-2.5 -28 -3 -16 0 -8 Z"/>
+<path transform="rotate(180)" d="M0 -8 C3 -16 2.5 -28 0 -38 C-2.5 -28 -3 -16 0 -8 Z"/>
+<path transform="rotate(225)" d="M0 -8 C3 -16 2.5 -28 0 -38 C-2.5 -28 -3 -16 0 -8 Z"/>
+<path transform="rotate(270)" d="M0 -8 C3 -16 2.5 -28 0 -38 C-2.5 -28 -3 -16 0 -8 Z"/>
+<path transform="rotate(315)" d="M0 -8 C3 -16 2.5 -28 0 -38 C-2.5 -28 -3 -16 0 -8 Z"/>
+</g>
+<g fill="#DCEBFF" opacity="0.9">
+<path transform="rotate(22)" d="M0 -7 C2.2 -13 2 -22 0 -28 C-2 -22 -2.2 -13 0 -7 Z"/>
+<path transform="rotate(67)" d="M0 -7 C2.2 -13 2 -22 0 -28 C-2 -22 -2.2 -13 0 -7 Z"/>
+<path transform="rotate(112)" d="M0 -7 C2.2 -13 2 -22 0 -28 C-2 -22 -2.2 -13 0 -7 Z"/>
+<path transform="rotate(157)" d="M0 -7 C2.2 -13 2 -22 0 -28 C-2 -22 -2.2 -13 0 -7 Z"/>
+<path transform="rotate(202)" d="M0 -7 C2.2 -13 2 -22 0 -28 C-2 -22 -2.2 -13 0 -7 Z"/>
+<path transform="rotate(247)" d="M0 -7 C2.2 -13 2 -22 0 -28 C-2 -22 -2.2 -13 0 -7 Z"/>
+<path transform="rotate(292)" d="M0 -7 C2.2 -13 2 -22 0 -28 C-2 -22 -2.2 -13 0 -7 Z"/>
+<path transform="rotate(337)" d="M0 -7 C2.2 -13 2 -22 0 -28 C-2 -22 -2.2 -13 0 -7 Z"/>
+</g>
+<!-- chi tiết bông tuyết ở đầu cánh -->
+<g stroke="#FFFFFF" stroke-width="1.1" opacity="0.95">
+<path d="M0 -38 L0 -33 M-3 -36 L3 -36"/>
+<path transform="rotate(90)" d="M0 -38 L0 -33 M-3 -36 L3 -36"/>
+<path transform="rotate(180)" d="M0 -38 L0 -33 M-3 -36 L3 -36"/>
+<path transform="rotate(270)" d="M0 -38 L0 -33 M-3 -36 L3 -36"/>
+</g>
+<circle class="tlA-core" r="7" fill="url(#tl_core)"/>
+<circle class="tlA-core" r="3" fill="#FFFFFF"/>
+</g>
+<!-- bông phụ -->
+<g transform="translate(118 106) scale(0.55)">
+<g fill="url(#tl_pet)">
+<path d="M0 -8 C3 -16 2.5 -28 0 -38 C-2.5 -28 -3 -16 0 -8 Z"/>
+<path transform="rotate(60)" d="M0 -8 C3 -16 2.5 -28 0 -38 C-2.5 -28 -3 -16 0 -8 Z"/>
+<path transform="rotate(120)" d="M0 -8 C3 -16 2.5 -28 0 -38 C-2.5 -28 -3 -16 0 -8 Z"/>
+<path transform="rotate(180)" d="M0 -8 C3 -16 2.5 -28 0 -38 C-2.5 -28 -3 -16 0 -8 Z"/>
+<path transform="rotate(240)" d="M0 -8 C3 -16 2.5 -28 0 -38 C-2.5 -28 -3 -16 0 -8 Z"/>
+<path transform="rotate(300)" d="M0 -8 C3 -16 2.5 -28 0 -38 C-2.5 -28 -3 -16 0 -8 Z"/>
+</g>
+<circle r="6" fill="url(#tl_core)"/>
+</g>
+<!-- nụ -->
+<path d="M84 140 C82 132 84 126 89 122 C91 128 90 135 87 140 Z" fill="#BFDCFF" opacity="0.9"/>
+<!-- cỏ băng -->
+<path d="M70 168 C64 158 64 148 70 140 C74 150 74 160 72 168 Z" fill="#DCEBFF" opacity="0.85"/>
+<path d="M128 168 C134 158 134 150 130 142 C126 152 126 160 127 168 Z" fill="#DCEBFF" opacity="0.85"/>
+<path d="M58 168 C54 162 54 154 58 148 C61 156 60 163 59 168 Z" fill="#BFD8F2" opacity="0.8"/>
+<path d="M142 168 C146 162 146 156 143 150 C140 157 140 163 141 168 Z" fill="#BFD8F2" opacity="0.8"/>
+<!-- tuyết bay + sparkle -->
+<circle class="tlA-snow" cx="62" cy="74" r="1.8" fill="#FFFFFF" opacity="0.9"/>
+<circle class="tlA-snow tlA-snow2" cx="140" cy="66" r="1.5" fill="#FFFFFF" opacity="0.85"/>
+<circle class="tlA-snow tlA-snow3" cx="74" cy="48" r="1.4" fill="#DCEBFF" opacity="0.85"/>
+<circle class="tlA-snow tlA-snow4" cx="128" cy="42" r="1.6" fill="#FFFFFF" opacity="0.8"/>
+<circle class="tlA-snow tlA-snow5" cx="150" cy="120" r="1.5" fill="#DCEBFF" opacity="0.8"/>
+<path class="tlA-sp" d="M58 100 l1.6 3.6 3.6 1.6 -3.6 1.6 -1.6 3.6 -1.6 -3.6 -3.6 -1.6 3.6 -1.6 Z" fill="#FFFFFF" opacity="0.95"/>
+<path class="tlA-sp tlA-sp2" d="M142 90 l1.4 3.2 3.2 1.4 -3.2 1.4 -1.4 3.2 -1.4 -3.2 -3.2 -1.4 3.2 -1.4 Z" fill="#DCEBFF" opacity="0.9"/>
+<path class="tlA-sp tlA-sp3" d="M108 30 l1.4 3.2 3.2 1.4 -3.2 1.4 -1.4 3.2 -1.4 -3.2 -3.2 -1.4 3.2 -1.4 Z" fill="#FFFFFF" opacity="0.9"/>
+</svg>

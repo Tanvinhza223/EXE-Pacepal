@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<defs>
+<radialGradient id="dl_g"><stop offset="0%" stop-color="#FFC85C" stop-opacity="0.55"/><stop offset="100%" stop-color="#FFC85C" stop-opacity="0"/></radialGradient>
+<radialGradient id="dl_f" cx="50%" cy="35%"><stop offset="0%" stop-color="#FFE9A8"/><stop offset="55%" stop-color="#FFB347"/><stop offset="100%" stop-color="#E8821E"/></radialGradient>
+<radialGradient id="dl_leaf" cx="45%" cy="35%"><stop offset="0%" stop-color="#2E6E63"/><stop offset="100%" stop-color="#1C4A42"/></radialGradient>
+</defs>
+<ellipse cx="100" cy="174" rx="54" ry="11" fill="#5E8C56"/>
+<ellipse cx="100" cy="171" rx="50" ry="9" fill="#739F66"/>
+<!-- thân mảnh -->
+<path d="M96 170 C96 144 94 120 98 100 L104 100 C106 122 105 148 105 170 Z" fill="#4A3328"/>
+<path d="M99 164 C99 144 98 124 100 106" stroke="#6B4A38" stroke-width="1.6" fill="none" opacity="0.8"/>
+<path d="M98 116 C86 108 76 106 66 108" stroke="#4A3328" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M102 112 C114 104 126 102 136 104" stroke="#4A3328" stroke-width="5" fill="none" stroke-linecap="round"/>
+<!-- tán tối nhiều lớp -->
+<circle cx="64" cy="92" r="19" fill="#163B35"/>
+<circle cx="136" cy="90" r="19" fill="#163B35"/>
+<circle cx="100" cy="64" r="28" fill="#163B35"/>
+<circle cx="80" cy="76" r="20" fill="#163B35"/>
+<circle cx="120" cy="76" r="20" fill="#163B35"/>
+<circle cx="66" cy="88" r="15" fill="url(#dl_leaf)"/>
+<circle cx="134" cy="86" r="15" fill="url(#dl_leaf)"/>
+<circle cx="82" cy="72" r="16" fill="url(#dl_leaf)"/>
+<circle cx="118" cy="72" r="16" fill="url(#dl_leaf)"/>
+<circle cx="100" cy="60" r="24" fill="url(#dl_leaf)"/>
+<circle cx="92" cy="50" r="10" fill="#3E8276"/>
+<circle cx="72" cy="80" r="6" fill="#3E8276" opacity="0.9"/>
+<circle cx="126" cy="66" r="6" fill="#3E8276" opacity="0.9"/>
+<!-- đèn lồng treo -->
+<g>
+<path d="M70 100 L70 112" stroke="#3A2A20" stroke-width="1.5"/>
+<circle cx="70" cy="121" r="13" fill="url(#dl_g)"/>
+<ellipse cx="70" cy="120" rx="6.5" ry="8" fill="url(#dl_f)"/>
+<path d="M66 114 C66 124 66 124 70 127 M74 114 C74 124 74 124 70 127" stroke="#C96A14" stroke-width="0.9" fill="none" opacity="0.7"/>
+<rect x="67.5" y="110.5" width="5" height="3" rx="1" fill="#7A4A1E"/>
+</g>
+<g>
+<path d="M130 96 L130 106" stroke="#3A2A20" stroke-width="1.5"/>
+<circle cx="130" cy="116" r="15" fill="url(#dl_g)"/>
+<ellipse cx="130" cy="115" rx="7.5" ry="9" fill="url(#dl_f)"/>
+<path d="M125 108 C125 119 125 119 130 123 M135 108 C135 119 135 119 130 123" stroke="#C96A14" stroke-width="0.9" fill="none" opacity="0.7"/>
+<rect x="127" y="104.5" width="6" height="3" rx="1" fill="#7A4A1E"/>
+</g>
+<g>
+<path d="M100 92 L100 130" stroke="#3A2A20" stroke-width="1.5"/>
+<circle cx="100" cy="142" r="17" fill="url(#dl_g)"/>
+<ellipse cx="100" cy="141" rx="8.5" ry="10.5" fill="url(#dl_f)"/>
+<path d="M94 133 C94 146 94 146 100 150 M106 133 C106 146 106 146 100 150" stroke="#C96A14" stroke-width="1" fill="none" opacity="0.7"/>
+<rect x="97" y="128.5" width="6" height="3.5" rx="1" fill="#7A4A1E"/>
+</g>
+<!-- đom đóm -->
+<circle cx="56" cy="130" r="5" fill="url(#dl_g)"/><circle cx="56" cy="130" r="1.6" fill="#FFE9A8"/>
+<circle cx="148" cy="140" r="5" fill="url(#dl_g)"/><circle cx="148" cy="140" r="1.4" fill="#FFE9A8"/>
+<circle cx="42" cy="100" r="4" fill="url(#dl_g)"/><circle cx="42" cy="100" r="1.2" fill="#FFE9A8"/>
+<circle cx="160" cy="84" r="4" fill="url(#dl_g)"/><circle cx="160" cy="84" r="1.2" fill="#FFE9A8"/>
+<path d="M84 158 q1 -6 3 -8 q1 5 0 8 Z" fill="#5E8C56"/>
+<path d="M120 160 q2 -5 4 -7 q1 5 -1 7 Z" fill="#739F66"/>
+</svg>

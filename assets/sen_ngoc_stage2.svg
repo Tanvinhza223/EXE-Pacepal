@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<defs>
+<radialGradient id="s2w" cx="50%" cy="40%"><stop offset="0%" stop-color="#6FCFC3"/><stop offset="100%" stop-color="#3E9E96"/></radialGradient>
+<linearGradient id="s2p" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#E87FA5"/><stop offset="100%" stop-color="#FFC9DA"/></linearGradient>
+<radialGradient id="s2g"><stop offset="0%" stop-color="#8FF2DF" stop-opacity="0.22"/><stop offset="100%" stop-color="#8FF2DF" stop-opacity="0"/></radialGradient>
+</defs>
+<ellipse cx="100" cy="168" rx="60" ry="14" fill="url(#s2w)"/>
+<ellipse cx="100" cy="166" rx="56" ry="12" fill="#54B8AC" opacity="0.7"/>
+<path d="M52 166 q10 -2 20 0 M126 168 q10 -2 18 0 M84 172 q8 -1.6 16 0" stroke="#BFEFE6" stroke-width="1.5" fill="none" opacity="0.8"/>
+<ellipse cx="134" cy="160" rx="18" ry="7" fill="#4E9E50"/>
+<ellipse cx="134" cy="158.6" rx="15" ry="5.6" fill="#5FB261"/>
+<path d="M122 158 L146 158 M128 155.5 L140 155.5" stroke="#3E8E41" stroke-width="1.1" opacity="0.7"/>
+<path d="M62 162 C52 158 48 150 50 142 C62 142 69 150 69 159 C67 161 64 162 62 162 Z" fill="#3E8E41"/>
+<circle cx="100" cy="124" r="26" fill="url(#s2g)"/>
+<path d="M100 158 C99 148 99 140 100 132" stroke="#4E9E50" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M100 134 C92 128 90 116 95 106 C100 112 102 122 101 132 Z" fill="url(#s2p)"/>
+<path d="M100 134 C108 128 110 116 105 106 C100 112 98 122 99 132 Z" fill="url(#s2p)"/>
+<path d="M100 132 C96 124 96 112 100 104 C104 112 104 124 100 132 Z" fill="#FFE9F0"/>
+<path d="M100 108 C101 116 101 124 100 130" stroke="#F8A8C0" stroke-width="1" fill="none" opacity="0.8"/>
+<circle cx="76" cy="120" r="1.5" fill="#BFFFF2" opacity="0.8"/>
+<circle cx="126" cy="112" r="1.3" fill="#FFFFFF" opacity="0.75"/>
+</svg>

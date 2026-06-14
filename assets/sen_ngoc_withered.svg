@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<defs><radialGradient id="swW" cx="50%" cy="40%"><stop offset="0%" stop-color="#8FA8A4"/><stop offset="100%" stop-color="#6E8884"/></radialGradient></defs>
+<ellipse cx="100" cy="168" rx="60" ry="14" fill="url(#swW)"/>
+<ellipse cx="100" cy="166" rx="56" ry="12" fill="#7E968F" opacity="0.7"/>
+<path d="M56 166 q10 -2 20 0 M124 168 q10 -2 18 0" stroke="#AEC2BC" stroke-width="1.4" fill="none" opacity="0.7"/>
+<!-- lá sen úa cuộn -->
+<path d="M58 160 C46 156 40 147 42 138 C54 138 63 146 64 156 C62 159 60 160 58 160 Z" fill="#7E8A66"/>
+<path d="M46 142 L60 155" stroke="#62704E" stroke-width="1.2"/>
+<ellipse cx="138" cy="160" rx="17" ry="6.5" fill="#8A9670"/>
+<path d="M127 158 L149 158" stroke="#6E7A56" stroke-width="1" opacity="0.7"/>
+<!-- hoa rũ gập xuống -->
+<path d="M100 158 C99 146 98 136 96 128 C94 122 90 118 84 116" stroke="#7E8A66" stroke-width="4" fill="none" stroke-linecap="round"/>
+<g transform="translate(80 118) rotate(-130)">
+<path d="M0 4 C-7 0 -9 -10 -5 -18 C0 -12 2 -4 1 3 Z" fill="#B8A0AA"/>
+<path d="M0 4 C7 0 9 -10 5 -18 C0 -12 -2 -4 -1 3 Z" fill="#A8909A"/>
+<path d="M0 4 C-3 -4 -3 -12 0 -18 C3 -12 3 -4 0 4 Z" fill="#C9B2BC"/>
+</g>
+<!-- cánh rơi nổi trên nước -->
+<ellipse cx="118" cy="164" rx="4.5" ry="2" fill="#B8A0AA"/>
+<ellipse cx="76" cy="168" rx="4" ry="1.8" fill="#A8909A"/>
+<ellipse cx="98" cy="171" rx="3.5" ry="1.6" fill="#B8A0AA"/>
+<path d="M70 158 q6 -1.4 12 0" stroke="#AEC2BC" stroke-width="1" fill="none" opacity="0.6"/>
+</svg>

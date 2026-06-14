@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<defs>
+<radialGradient id="v3g"><stop offset="0%" stop-color="#C77BFF" stop-opacity="0.36"/><stop offset="60%" stop-color="#A04BD8" stop-opacity="0.15"/><stop offset="100%" stop-color="#A04BD8" stop-opacity="0"/></radialGradient>
+<linearGradient id="v3r" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#8E2D9E"/><stop offset="50%" stop-color="#D9479E"/><stop offset="100%" stop-color="#FF8AC2"/></linearGradient>
+<radialGradient id="v3o" cx="42%" cy="35%"><stop offset="0%" stop-color="#FFF3C4"/><stop offset="55%" stop-color="#FFC23F"/><stop offset="100%" stop-color="#D97B1E"/></radialGradient>
+<radialGradient id="v3og"><stop offset="0%" stop-color="#FFD166" stop-opacity="0.48"/><stop offset="100%" stop-color="#FFD166" stop-opacity="0"/></radialGradient>
+</defs>
+<ellipse cx="100" cy="172" rx="52" ry="11" fill="#6E5E86" opacity="0.7"/>
+<ellipse cx="100" cy="169" rx="48" ry="9" fill="#857399" opacity="0.7"/>
+<ellipse cx="100" cy="104" rx="52" ry="48" fill="url(#v3g)"/>
+<path d="M95 166 C94 158 95 152 97 148 L104 148 C106 153 107 160 106 166 Z" fill="#6E2D7E"/>
+<path d="M99 166 C99 168 99 170 99 171 L101 171 C101 169 101 167 101 166 Z" fill="#54215E"/>
+<!-- 2 quả cầu -->
+<circle cx="100" cy="120" r="20" fill="url(#v3og)"/>
+<ellipse cx="100" cy="116" rx="11.5" ry="12.5" fill="url(#v3o)"/>
+<path d="M94 109 C97 114 96.5 119 93 123 M100 107 C103 113 103 119 100 125 M106 110 C108 115 107 120 105 123" stroke="#A8531E" stroke-width="1.2" fill="none" opacity="0.75"/>
+<ellipse cx="100" cy="138" rx="9" ry="10" fill="url(#v3o)"/>
+<path d="M95 132 C97.5 136 97.5 141 95 144 M101 130 C103.5 135 103.5 141 101 146" stroke="#A8531E" stroke-width="1" fill="none" opacity="0.75"/>
+<!-- dải lụa vừa -->
+<path d="M98 102 C90 88 92 70 102 56 C95 74 96 90 102 100 Z" fill="url(#v3r)"/>
+<path d="M102 102 C110 86 108 68 96 54 C104 72 103 88 98 100 Z" fill="url(#v3r)" opacity="0.92"/>
+<path d="M97 104 C84 96 76 82 78 64 C83 82 90 96 100 102 Z" fill="url(#v3r)"/>
+<path d="M103 104 C116 96 124 82 122 64 C117 82 110 96 100 102 Z" fill="url(#v3r)"/>
+<path d="M96 106 C82 104 70 96 64 84 C74 96 86 102 99 104 Z" fill="url(#v3r)" opacity="0.85"/>
+<path d="M104 106 C118 104 130 96 136 84 C126 96 114 102 101 104 Z" fill="url(#v3r)" opacity="0.85"/>
+<path d="M80 68 C84 84 91 96 100 102" stroke="#FFB0D8" stroke-width="0.9" fill="none" opacity="0.75"/>
+<path d="M120 68 C116 84 109 96 100 102" stroke="#FFB0D8" stroke-width="0.9" fill="none" opacity="0.75"/>
+<circle cx="64" cy="96" r="1.5" fill="#F2C9FF" opacity="0.85"/>
+<circle cx="138" cy="92" r="1.4" fill="#FFD3EC" opacity="0.8"/>
+<circle cx="92" cy="44" r="1.3" fill="#F2C9FF" opacity="0.8"/>
+<path d="M68 62 l1.6 3.6 3.6 1.6 -3.6 1.6 -1.6 3.6 -1.6 -3.6 -3.6 -1.6 3.6 -1.6 Z" fill="#F2C9FF" opacity="0.92"/>
+<path d="M134 56 l1.3 3 3 1.3 -3 1.3 -1.3 3 -1.3 -3 -3 -1.3 3 -1.3 Z" fill="#FFD3EC" opacity="0.88"/>
+<path d="M144 116 l1.2 2.8 2.8 1.2 -2.8 1.2 -1.2 2.8 -1.2 -2.8 -2.8 -1.2 2.8 -1.2 Z" fill="#F2C9FF" opacity="0.8"/>
+</svg>

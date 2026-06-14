@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<defs><radialGradient id="p1g"><stop offset="0%" stop-color="#FF9EC4" stop-opacity="0.35"/><stop offset="100%" stop-color="#FF7BB0" stop-opacity="0"/></radialGradient></defs>
+<ellipse cx="100" cy="172" rx="54" ry="11" fill="#7A9978" opacity="0.7"/>
+<ellipse cx="100" cy="169" rx="50" ry="9" fill="#8FB28A" opacity="0.7"/>
+<circle cx="100" cy="148" r="26" fill="url(#p1g)"/>
+<path d="M100 166 C100 158 100 152 100 146" stroke="#E06A9C" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.9"/>
+<path d="M100 166 C100 158 100 152 100 146" stroke="#FFD3E5" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+<!-- mầm tinh thể -->
+<path d="M100 148 L92 138 L100 124 L108 138 Z" fill="#FFC2DC" opacity="0.85"/>
+<path d="M100 148 L92 138 L100 132 Z" fill="#FFE3EF" opacity="0.9"/>
+<path d="M100 124 L100 148" stroke="#FFFFFF" stroke-width="0.9" opacity="0.8"/>
+<path d="M93 152 L85 148 L80 151 L86 155 Z" fill="#FFD3E5" opacity="0.7" stroke="#FFE3EF" stroke-width="0.8"/>
+<path d="M107 152 L115 147 L121 150 L114 155 Z" fill="#FFD3E5" opacity="0.7" stroke="#FFE3EF" stroke-width="0.8"/>
+<circle cx="84" cy="130" r="1.3" fill="#FFE3EF" opacity="0.85"/>
+<circle cx="118" cy="134" r="1.2" fill="#FFD3E5" opacity="0.8"/>
+<path d="M120 118 l1.2 2.8 2.8 1.2 -2.8 1.2 -1.2 2.8 -1.2 -2.8 -2.8 -1.2 2.8 -1.2 Z" fill="#FFE3EF" opacity="0.9"/>
+</svg>

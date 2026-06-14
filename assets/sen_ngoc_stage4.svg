@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<defs>
+<radialGradient id="sn_glow"><stop offset="0%" stop-color="#8FF2DF" stop-opacity="0.35"/><stop offset="100%" stop-color="#8FF2DF" stop-opacity="0"/></radialGradient>
+<linearGradient id="sn_pet" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#F8A8C0"/><stop offset="100%" stop-color="#FFE9F0"/></linearGradient>
+<linearGradient id="sn_pet2" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#E87FA5"/><stop offset="100%" stop-color="#FFC9DA"/></linearGradient>
+<radialGradient id="sn_water" cx="50%" cy="40%"><stop offset="0%" stop-color="#6FCFC3"/><stop offset="100%" stop-color="#3E9E96"/></radialGradient>
+</defs>
+<ellipse cx="100" cy="168" rx="60" ry="14" fill="url(#sn_water)"/>
+<ellipse cx="100" cy="166" rx="56" ry="12" fill="#54B8AC" opacity="0.7"/>
+<path d="M52 166 q10 -2 20 0 M126 168 q10 -2 18 0 M84 173 q8 -1.6 16 0" stroke="#BFEFE6" stroke-width="1.5" fill="none" opacity="0.8"/>
+<!-- lá sen -->
+<path d="M58 158 C44 154 38 144 40 134 C56 134 66 144 66 156 C64 158 61 159 58 158 Z" fill="#3E8E41"/>
+<path d="M44 138 L62 154" stroke="#2E6E31" stroke-width="1.4"/>
+<ellipse cx="140" cy="158" rx="20" ry="8" fill="#4E9E50"/>
+<ellipse cx="140" cy="156.5" rx="17" ry="6.5" fill="#5FB261"/>
+<path d="M127 156 L153 156 M133 153 L147 153" stroke="#3E8E41" stroke-width="1.2" opacity="0.7"/>
+<!-- glow sau hoa -->
+<ellipse cx="100" cy="98" rx="52" ry="46" fill="url(#sn_glow)"/>
+<!-- cuống -->
+<path d="M100 156 C99 142 99 130 100 120" stroke="#4E9E50" stroke-width="5" stroke-linecap="round" fill="none"/>
+<!-- cánh ngoài -->
+<path d="M100 120 C82 116 70 104 68 88 C82 92 94 104 100 118 Z" fill="url(#sn_pet2)"/>
+<path d="M100 120 C118 116 130 104 132 88 C118 92 106 104 100 118 Z" fill="url(#sn_pet2)"/>
+<path d="M100 122 C86 124 74 120 66 110 C76 106 92 110 100 118 Z" fill="url(#sn_pet)"/>
+<path d="M100 122 C114 124 126 120 134 110 C124 106 108 110 100 118 Z" fill="url(#sn_pet)"/>
+<!-- cánh giữa -->
+<path d="M100 118 C88 108 84 92 88 76 C98 84 103 100 101 116 Z" fill="url(#sn_pet)"/>
+<path d="M100 118 C112 108 116 92 112 76 C102 84 97 100 99 116 Z" fill="url(#sn_pet)"/>
+<path d="M89 79 C92 88 96 98 99 110" stroke="#E87FA5" stroke-width="1.2" fill="none" opacity="0.7"/>
+<path d="M111 79 C108 88 104 98 101 110" stroke="#E87FA5" stroke-width="1.2" fill="none" opacity="0.7"/>
+<!-- cánh trung tâm -->
+<path d="M100 116 C94 104 94 88 100 78 C106 88 106 104 100 116 Z" fill="#FFF3F7"/>
+<path d="M100 82 C101 92 101 104 100 112" stroke="#F8A8C0" stroke-width="1.2" fill="none" opacity="0.8"/>
+<!-- nhụy vàng -->
+<ellipse cx="100" cy="114" rx="7" ry="4.5" fill="#FFD166"/>
+<circle cx="96" cy="113" r="1.2" fill="#E8A20C"/><circle cx="100" cy="115" r="1.2" fill="#E8A20C"/><circle cx="104" cy="113" r="1.2" fill="#E8A20C"/>
+<!-- hạt sáng -->
+<circle cx="70" cy="78" r="1.8" fill="#BFFFF2" opacity="0.9"/>
+<circle cx="132" cy="74" r="1.6" fill="#BFFFF2" opacity="0.8"/>
+<circle cx="118" cy="60" r="1.4" fill="#FFFFFF" opacity="0.8"/>
+<path d="M84 58 l1.5 3.5 3.5 1.5 -3.5 1.5 -1.5 3.5 -1.5 -3.5 -3.5 -1.5 3.5 -1.5 Z" fill="#CFFAF0"/>
+<path d="M126 96 l1.2 3 3 1.2 -3 1.2 -1.2 3 -1.2 -3 -3 -1.2 3 -1.2 Z" fill="#FFE9F0"/>
+</svg>

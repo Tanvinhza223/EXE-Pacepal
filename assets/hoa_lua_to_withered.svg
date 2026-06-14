@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<style>
+.hoT-h{animation:hoT-out 8s ease-in-out forwards;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes hoT-out{
+ 0%{opacity:1;filter:none;transform:rotate(0)}
+ 6%{transform:rotate(-1.2deg)}
+ 10%{transform:rotate(1.2deg)}
+ 14%{transform:rotate(-.8deg)}
+ 30%{filter:grayscale(.35) brightness(.96);opacity:1}
+ 62%{filter:grayscale(.7) brightness(.9);opacity:.5;transform:rotate(2.6deg)}
+ 88%,100%{opacity:0;filter:grayscale(.85) brightness(.85);transform:rotate(3.2deg)}}
+.hoT-w{opacity:0;animation:hoT-in 8s ease-in-out forwards}
+@keyframes hoT-in{0%,32%{opacity:0}55%{opacity:.45}82%,100%{opacity:1}}
+</style>
+<g class="hoT-w">
+<ellipse cx="100" cy="172" rx="52" ry="11" fill="#7A6A62" opacity="0.8"/>
+<ellipse cx="100" cy="169" rx="48" ry="9" fill="#8C7C74" opacity="0.8"/>
+<!-- thân than gập -->
+<path d="M101 166 C99 150 98 134 99 116 C99 108 96 102 92 100" stroke="#4A3A36" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<path d="M97 140 L101 134 L98 126" stroke="#352A26" stroke-width="1.2" fill="none"/>
+<!-- bông than rũ -->
+<g transform="translate(88 102) rotate(-130)">
+<path d="M-2 8 C-12 2 -15 -10 -10 -20 C-7 -14 -4 -11 -2 -13 C0 -7 1 -1 2 4 C1 6 0 8 -2 8 Z" fill="#5E4A46"/>
+<path d="M2 8 C12 2 15 -10 10 -20 C7 -14 4 -11 2 -13 C0 -7 -1 -1 -2 4 C-1 6 0 8 2 8 Z" fill="#52403C"/>
+<path d="M0 6 C-5 -2 -5 -12 0 -18 C5 -12 5 -2 0 6 Z" fill="#6E5A56"/>
+<path d="M0 2 C-2 -3 -2 -9 0 -13" stroke="#8A7672" stroke-width="0.9" fill="none" opacity="0.7"/>
+</g>
+<!-- khói -->
+<path d="M86 92 C83 84 89 80 86 72 C84 66 88 62 86 56" stroke="#9C948E" stroke-width="2" fill="none" opacity="0.55" stroke-linecap="round"/>
+<!-- đốm than còn đỏ -->
+<circle cx="92" cy="106" r="4.5" fill="#FF8C42" opacity="0.25"/>
+<circle cx="92" cy="106" r="2" fill="#E85D3A"/>
+<!-- cánh than rơi -->
+<path d="M76 158 C73 153 74 147 79 144 C81 149 80 155 78 159 Z" fill="#5E4A46" opacity="0.9"/>
+<path d="M118 162 C116 158 117 153 121 151 C122 155 121 159 120 162 Z" fill="#52403C" opacity="0.85"/>
+<ellipse cx="98" cy="170" rx="4" ry="1.8" fill="#5E4A46" opacity="0.8"/>
+<circle cx="80" cy="146" r="1" fill="#E85D3A" opacity="0.7"/>
+</g>
+<g class="hoT-h">
+<defs>
+<radialGradient id="hl_g"><stop offset="0%" stop-color="#FF5E5E" stop-opacity="0.4"/><stop offset="60%" stop-color="#E83A3A" stop-opacity="0.16"/><stop offset="100%" stop-color="#E83A3A" stop-opacity="0"/></radialGradient>
+<radialGradient id="hl_core"><stop offset="0%" stop-color="#FFF3C4"/><stop offset="60%" stop-color="#FFB347"/><stop offset="100%" stop-color="#F2545B"/></radialGradient>
+<linearGradient id="hl_pet" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#A61B2E"/><stop offset="55%" stop-color="#E8323E"/><stop offset="100%" stop-color="#FF7E6B"/></linearGradient>
+<linearGradient id="hl_stem" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7A1626"/><stop offset="50%" stop-color="#B3273A"/><stop offset="100%" stop-color="#5E0F1C"/></linearGradient>
+</defs>
+<ellipse cx="100" cy="172" rx="52" ry="11" fill="#8C6A5E" opacity="0.7"/>
+<ellipse cx="100" cy="169" rx="48" ry="9" fill="#A3837A" opacity="0.7"/>
+<ellipse cx="100" cy="84" rx="58" ry="56" fill="url(#hl_g)"/>
+<!-- thân cao -->
+<path d="M101 166 C99 146 98 124 99 96" stroke="url(#hl_stem)" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M100 160 C99 144 99 126 99.5 104" stroke="#FF9E8A" stroke-width="1.2" fill="none" opacity="0.8"/>
+<path d="M100 134 C92 130 87 124 86 116 C93 119 98 126 100 132 Z" fill="url(#hl_pet)" opacity="0.9"/>
+<!-- lõi sáng -->
+<ellipse cx="100" cy="74" rx="13" ry="20" fill="url(#hl_core)"/>
+<!-- cánh lửa cong -->
+<path d="M98 92 C82 86 74 72 76 56 C80 60 84 62 84 56 C84 48 88 42 96 38 C92 48 94 56 100 62 C96 70 96 82 98 92 Z" fill="url(#hl_pet)"/>
+<path d="M102 92 C118 86 126 72 124 56 C120 60 116 62 116 56 C116 48 112 42 104 38 C108 48 106 56 100 62 C104 70 104 82 102 92 Z" fill="url(#hl_pet)"/>
+<path d="M96 90 C86 78 84 64 90 50 C86 64 90 76 98 86 Z" fill="#FF7E6B" opacity="0.9"/>
+<path d="M104 90 C114 78 116 64 110 50 C114 64 110 76 102 86 Z" fill="#FF7E6B" opacity="0.9"/>
+<path d="M100 92 C92 80 92 62 100 50 C108 62 108 80 100 92 Z" fill="url(#hl_pet)"/>
+<path d="M100 88 C95 78 95 64 100 56 C105 64 105 78 100 88 Z" fill="#FFB347" opacity="0.85"/>
+<!-- tia tơ sáng quanh cánh -->
+<path d="M84 84 C72 76 66 62 70 46" stroke="#FFD9C2" stroke-width="1.1" fill="none" opacity="0.85"/>
+<path d="M116 84 C128 76 134 62 130 46" stroke="#FFD9C2" stroke-width="1.1" fill="none" opacity="0.85"/>
+<path d="M92 40 C94 32 100 26 108 26" stroke="#FFD9C2" stroke-width="1" fill="none" opacity="0.75"/>
+<path d="M76 60 C70 54 68 46 70 38" stroke="#FFB0A0" stroke-width="0.9" fill="none" opacity="0.7"/>
+<path d="M124 60 C130 54 132 46 130 38" stroke="#FFB0A0" stroke-width="0.9" fill="none" opacity="0.7"/>
+<!-- cánh rơi phát sáng -->
+<circle cx="64" cy="142" r="9" fill="url(#hl_g)"/>
+<path d="M60 146 C58 140 60 134 66 132 C68 138 66 144 62 147 Z" fill="url(#hl_pet)"/>
+<path d="M61 144 C60 140 62 136 65 134" stroke="#FFD9C2" stroke-width="0.9" fill="none" opacity="0.8"/>
+<!-- tàn lửa -->
+<circle cx="76" cy="100" r="1.8" fill="#FFB347" opacity="0.95"/>
+<circle cx="128" cy="92" r="1.6" fill="#FF7E6B" opacity="0.9"/>
+<circle cx="86" cy="34" r="1.5" fill="#FFD9C2" opacity="0.9"/>
+<circle cx="118" cy="30" r="1.4" fill="#FFB347" opacity="0.85"/>
+<circle cx="138" cy="118" r="1.5" fill="#FF7E6B" opacity="0.8"/>
+<circle cx="58" cy="116" r="1.3" fill="#FFB347" opacity="0.8"/>
+<path d="M70 70 l1.5 3.4 3.4 1.5 -3.4 1.5 -1.5 3.4 -1.5 -3.4 -3.4 -1.5 3.4 -1.5 Z" fill="#FFE9A8" opacity="0.95"/>
+<path d="M132 76 l1.3 3 3 1.3 -3 1.3 -1.3 3 -1.3 -3 -3 -1.3 3 -1.3 Z" fill="#FFD9C2" opacity="0.9"/>
+</g>
+</svg>

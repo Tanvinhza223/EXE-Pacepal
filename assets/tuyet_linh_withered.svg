@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<ellipse cx="100" cy="172" rx="54" ry="11" fill="#6E7780" opacity="0.7"/>
+<ellipse cx="100" cy="169" rx="50" ry="9" fill="#828B94" opacity="0.7"/>
+<!-- thân gập, hết sáng -->
+<path d="M100 166 C99 150 98 138 99 126 C99 118 104 112 110 110" stroke="#8A98A8" stroke-width="4" fill="none" stroke-linecap="round"/>
+<!-- bông cúi xuống, cánh cụp -->
+<g transform="translate(114 112) rotate(125)">
+<g fill="#AEBCC9" opacity="0.85">
+<path d="M0 -6 C2 -11 1.8 -18 0 -24 C-1.8 -18 -2 -11 0 -6 Z"/>
+<path transform="rotate(40)" d="M0 -6 C2 -11 1.8 -18 0 -24 C-1.8 -18 -2 -11 0 -6 Z"/>
+<path transform="rotate(-40)" d="M0 -6 C2 -11 1.8 -18 0 -24 C-1.8 -18 -2 -11 0 -6 Z"/>
+<path transform="rotate(80)" d="M0 -6 C2 -11 1.8 -18 0 -24 C-1.8 -18 -2 -11 0 -6 Z"/>
+<path transform="rotate(-80)" d="M0 -6 C2 -11 1.8 -18 0 -24 C-1.8 -18 -2 -11 0 -6 Z"/>
+</g>
+<circle r="4.5" fill="#C9D4DE"/>
+</g>
+<!-- mảnh băng tan rơi -->
+<path d="M76 162 L80 156 L84 162 L80 166 Z" fill="#AEBCC9" opacity="0.8"/>
+<path d="M118 164 L121 159 L124 164 L121 167 Z" fill="#9CA8B4" opacity="0.75"/>
+<ellipse cx="96" cy="170" rx="4" ry="1.8" fill="#AEBCC9" opacity="0.7"/>
+<!-- cỏ băng gãy -->
+<path d="M74 166 C71 161 71 155 74 150 L76 152 C74 156 74 161 75 165 Z" fill="#9CA8B4" opacity="0.7"/>
+<path d="M126 166 C129 161 129 156 126 151 C124 156 124 161 125 165 Z" fill="#8A98A8" opacity="0.7"/>
+<circle cx="84" cy="120" r="1.2" fill="#C9D4DE" opacity="0.6"/>
+</svg>

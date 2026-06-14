@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<defs>
+<radialGradient id="d2g"><stop offset="0%" stop-color="#FFC85C" stop-opacity="0.55"/><stop offset="100%" stop-color="#FFC85C" stop-opacity="0"/></radialGradient>
+<radialGradient id="d2f" cx="50%" cy="35%"><stop offset="0%" stop-color="#FFE9A8"/><stop offset="55%" stop-color="#FFB347"/><stop offset="100%" stop-color="#E8821E"/></radialGradient>
+<radialGradient id="d2l" cx="45%" cy="35%"><stop offset="0%" stop-color="#2E6E63"/><stop offset="100%" stop-color="#1C4A42"/></radialGradient>
+</defs>
+<ellipse cx="100" cy="174" rx="54" ry="11" fill="#5E8C56"/>
+<ellipse cx="100" cy="171" rx="50" ry="9" fill="#739F66"/>
+<path d="M97 170 C97 154 96 142 98 130 L103 130 C105 144 104 158 104 170 Z" fill="#4A3328"/>
+<circle cx="100" cy="114" r="22" fill="#163B35"/>
+<circle cx="85" cy="124" r="12" fill="#163B35"/>
+<circle cx="115" cy="124" r="12" fill="#163B35"/>
+<circle cx="100" cy="110" r="18" fill="url(#d2l)"/>
+<circle cx="87" cy="120" r="9" fill="url(#d2l)"/>
+<circle cx="113" cy="120" r="9" fill="url(#d2l)"/>
+<circle cx="93" cy="102" r="7" fill="#3E8276"/>
+<path d="M100 132 L100 138" stroke="#3A2A20" stroke-width="1.3"/>
+<circle cx="100" cy="146" r="11" fill="url(#d2g)"/>
+<ellipse cx="100" cy="145" rx="5.5" ry="7" fill="url(#d2f)"/>
+<path d="M96.5 140 C96.5 148 96.5 148 100 150.5 M103.5 140 C103.5 148 103.5 148 100 150.5" stroke="#C96A14" stroke-width="0.8" fill="none" opacity="0.7"/>
+<rect x="98" y="136.5" width="4" height="2.5" rx="1" fill="#7A4A1E"/>
+<circle cx="128" cy="136" r="4" fill="url(#d2g)"/><circle cx="128" cy="136" r="1.2" fill="#FFE9A8"/>
+<circle cx="70" cy="120" r="3.5" fill="url(#d2g)"/><circle cx="70" cy="120" r="1" fill="#FFE9A8"/>
+<path d="M82 166 q1 -5 3 -7 q1 4 0 7 Z" fill="#5E8C56"/>
+</svg>

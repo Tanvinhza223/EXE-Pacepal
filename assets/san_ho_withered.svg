@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<ellipse cx="100" cy="172" rx="56" ry="12" fill="#A8B0A6"/>
+<ellipse cx="100" cy="169" rx="52" ry="10" fill="#BEC6BA"/>
+<!-- vỏ sò bạc màu -->
+<path d="M68 162 C68 146 82 136 100 136 C118 136 132 146 132 162 C122 168 110 170 100 170 C90 170 78 168 68 162 Z" fill="#D9D2CC"/>
+<path d="M100 138 L100 166 M84 142 L92 165 M116 142 L108 165 M73 150 L84 163 M127 150 L116 163" stroke="#ABA29C" stroke-width="1.5" fill="none" opacity="0.8"/>
+<!-- san hô tẩy trắng, nhánh gãy -->
+<path d="M99 138 C99 118 100 100 100 84" stroke="#C2C8C4" stroke-width="8" fill="none" stroke-linecap="round"/>
+<path d="M100 84 C100 78 99 74 97 70" stroke="#AEB6B0" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M97 116 C88 108 80 104 72 104" stroke="#C2C8C4" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+<path d="M103 110 C112 104 120 101 126 102" stroke="#C2C8C4" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+<path d="M126 102 L132 96" stroke="#AEB6B0" stroke-width="3" stroke-linecap="round"/>
+<!-- nhánh gãy rơi -->
+<path d="M64 150 C70 146 76 146 80 148" stroke="#AEB6B0" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<!-- sao tắt -->
+<path d="M97 64 l1.6 3.6 3.6 1.6 -3.6 1.6 -1.6 3.6 -1.6 -3.6 -3.6 -1.6 3.6 -1.6 Z" fill="#B8B49E"/>
+<path d="M71 99 l1.4 3.2 3.2 1.4 -3.2 1.4 -1.4 3.2 -1.4 -3.2 -3.2 -1.4 3.2 -1.4 Z" fill="#B8B49E"/>
+<path d="M126 96 l1.3 3 3 1.3 -3 1.3 -1.3 3 -1.3 -3 -3 -1.3 3 -1.3 Z" fill="#ABA790"/>
+<path d="M130 150 l1.3 3 3 1.3 -3 1.3 -1.3 3 -1.3 -3 -3 -1.3 3 -1.3 Z" fill="#B8B49E"/>
+<!-- rong úa -->
+<path d="M62 166 C58 160 58 154 62 148 C65 154 65 160 64 165 Z" fill="#8A9678"/>
+<path d="M140 166 C144 160 144 154 140 148 C137 154 137 160 138 165 Z" fill="#8A9678"/>
+</svg>

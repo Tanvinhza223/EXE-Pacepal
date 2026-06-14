@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<ellipse cx="100" cy="174" rx="54" ry="11" fill="#A99A82"/>
+<ellipse cx="100" cy="171" rx="50" ry="9" fill="#C6B79C"/>
+<!-- nấm lớn rũ -->
+<path d="M94 169 C94 152 95 140 97 130 L107 130 C109 142 110 156 110 169 Z" fill="#C9BCA4"/>
+<path d="M97 154 C101 156 106 156 109 154" stroke="#A89878" stroke-width="1.2" fill="none"/>
+<path d="M74 134 C72 114 84 100 100 100 C114 100 126 110 128 126 C128 132 124 136 120 134 C114 131 108 132 104 136 C98 130 88 130 82 136 C78 138 75 137 74 134 Z" fill="#9A8470"/>
+<path d="M80 130 L122 128" stroke="#7A6654" stroke-width="1.1" fill="none" opacity="0.6"/>
+<path d="M96 106 L100 116 M108 104 L106 114" stroke="#6E5A48" stroke-width="1.3" fill="none" opacity="0.7"/>
+<ellipse cx="90" cy="112" rx="5" ry="3.2" fill="#C9BCA4" opacity="0.8"/>
+<ellipse cx="112" cy="108" rx="3.4" ry="2.2" fill="#C9BCA4" opacity="0.75"/>
+<!-- nấm nhỏ gãy gục -->
+<path d="M130 168 C130 162 131 158 132 155 L137 155 C138 159 138 163 138 168 Z" fill="#C9BCA4"/>
+<g transform="rotate(38 134 152)">
+<path d="M122 154 C122 146 127 141 134 141 C141 141 146 146 146 154 Z" fill="#9A8470"/>
+<ellipse cx="130" cy="147" rx="2.6" ry="1.8" fill="#C9BCA4" opacity="0.8"/>
+</g>
+<!-- nấm trái đổ hẳn -->
+<g transform="rotate(78 70 160)">
+<path d="M62 162 C62 155 66 151 71 151 C76 151 80 155 80 162 Z" fill="#8A7460"/>
+<path d="M66 158 C66 154 68 152 70 151 L72 151 C74 153 75 156 75 158" fill="none" stroke="#6E5A48" stroke-width="1"/>
+</g>
+<path d="M58 168 C54 163 53 157 56 152 C59 156 60 162 59 167 Z" fill="#9A8E70"/>
+<ellipse cx="92" cy="170" rx="4" ry="2" fill="#9A8470"/>
+<ellipse cx="118" cy="172" rx="3.5" ry="1.8" fill="#8A7460"/>
+</svg>

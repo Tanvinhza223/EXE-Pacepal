@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<ellipse cx="100" cy="172" rx="52" ry="11" fill="#7A6A62" opacity="0.8"/>
+<ellipse cx="100" cy="169" rx="48" ry="9" fill="#8C7C74" opacity="0.8"/>
+<!-- thân than gập -->
+<path d="M101 166 C99 150 98 134 99 116 C99 108 96 102 92 100" stroke="#4A3A36" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<path d="M97 140 L101 134 L98 126" stroke="#352A26" stroke-width="1.2" fill="none"/>
+<!-- bông than rũ -->
+<g transform="translate(88 102) rotate(-130)">
+<path d="M-2 8 C-12 2 -15 -10 -10 -20 C-7 -14 -4 -11 -2 -13 C0 -7 1 -1 2 4 C1 6 0 8 -2 8 Z" fill="#5E4A46"/>
+<path d="M2 8 C12 2 15 -10 10 -20 C7 -14 4 -11 2 -13 C0 -7 -1 -1 -2 4 C-1 6 0 8 2 8 Z" fill="#52403C"/>
+<path d="M0 6 C-5 -2 -5 -12 0 -18 C5 -12 5 -2 0 6 Z" fill="#6E5A56"/>
+<path d="M0 2 C-2 -3 -2 -9 0 -13" stroke="#8A7672" stroke-width="0.9" fill="none" opacity="0.7"/>
+</g>
+<!-- khói -->
+<path d="M86 92 C83 84 89 80 86 72 C84 66 88 62 86 56" stroke="#9C948E" stroke-width="2" fill="none" opacity="0.55" stroke-linecap="round"/>
+<!-- đốm than còn đỏ -->
+<circle cx="92" cy="106" r="4.5" fill="#FF8C42" opacity="0.25"/>
+<circle cx="92" cy="106" r="2" fill="#E85D3A"/>
+<!-- cánh than rơi -->
+<path d="M76 158 C73 153 74 147 79 144 C81 149 80 155 78 159 Z" fill="#5E4A46" opacity="0.9"/>
+<path d="M118 162 C116 158 117 153 121 151 C122 155 121 159 120 162 Z" fill="#52403C" opacity="0.85"/>
+<ellipse cx="98" cy="170" rx="4" ry="1.8" fill="#5E4A46" opacity="0.8"/>
+<circle cx="80" cy="146" r="1" fill="#E85D3A" opacity="0.7"/>
+</svg>

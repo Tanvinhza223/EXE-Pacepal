@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<defs>
+<linearGradient id="ct_tr" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#8A5A35"/><stop offset="45%" stop-color="#A8714A"/><stop offset="100%" stop-color="#6E4527"/>
+</linearGradient>
+<radialGradient id="ct_gr"><stop offset="0%" stop-color="#86C45D"/><stop offset="100%" stop-color="#5B9E3E"/></radialGradient>
+</defs>
+<ellipse cx="100" cy="174" rx="58" ry="12" fill="#79B364"/>
+<ellipse cx="100" cy="171" rx="54" ry="10" fill="#94CE7A"/>
+<!-- rễ nổi -->
+<path d="M78 170 C74 162 76 154 84 150 L92 156 C86 160 82 165 82 170 Z" fill="#7C4E2C"/>
+<path d="M122 170 C126 162 124 154 116 150 L108 156 C114 160 118 165 118 170 Z" fill="#6E4527"/>
+<path d="M66 172 C60 168 58 162 62 158 L72 164 C68 166 66 169 66 172 Z" fill="#8A5A35"/>
+<path d="M134 172 C140 168 142 162 138 158 L128 164 C132 166 134 169 134 172 Z" fill="#6E4527"/>
+<!-- thân xoắn -->
+<path d="M82 170 C84 140 80 118 88 100 L112 100 C120 120 116 142 118 170 Z" fill="url(#ct_tr)"/>
+<path d="M88 100 C92 88 96 82 100 78 L106 82 C110 88 112 94 112 100 Z" fill="url(#ct_tr)"/>
+<!-- vân gỗ -->
+<path d="M92 165 C90 145 92 125 96 108" stroke="#5E3A1F" stroke-width="2" fill="none" opacity="0.55"/>
+<path d="M104 166 C106 146 104 128 102 110" stroke="#5E3A1F" stroke-width="1.6" fill="none" opacity="0.45"/>
+<path d="M98 160 C97 150 98 138 100 126" stroke="#C28B5C" stroke-width="1.6" fill="none" opacity="0.6"/>
+<!-- hốc cây -->
+<ellipse cx="97" cy="138" rx="6" ry="9" fill="#4A2D16"/>
+<ellipse cx="97" cy="136" rx="4.5" ry="7" fill="#2E1B0C"/>
+<!-- cành -->
+<path d="M90 104 C76 96 64 94 52 96" stroke="#7C4E2C" stroke-width="8" fill="none" stroke-linecap="round"/>
+<path d="M110 104 C124 96 138 94 150 98" stroke="#6E4527" stroke-width="8" fill="none" stroke-linecap="round"/>
+<!-- tán lá 3 tầng, nhiều mảng -->
+<circle cx="58" cy="84" r="20" fill="#3E7A2E"/>
+<circle cx="142" cy="86" r="20" fill="#3E7A2E"/>
+<circle cx="100" cy="56" r="30" fill="#3E7A2E"/>
+<circle cx="76" cy="68" r="22" fill="#3E7A2E"/>
+<circle cx="124" cy="68" r="22" fill="#3E7A2E"/>
+<circle cx="60" cy="80" r="16" fill="url(#ct_gr)"/>
+<circle cx="140" cy="82" r="16" fill="url(#ct_gr)"/>
+<circle cx="78" cy="64" r="18" fill="url(#ct_gr)"/>
+<circle cx="122" cy="64" r="18" fill="url(#ct_gr)"/>
+<circle cx="100" cy="52" r="26" fill="url(#ct_gr)"/>
+<circle cx="92" cy="42" r="12" fill="#A2D87E"/>
+<circle cx="70" cy="58" r="8" fill="#A2D87E" opacity="0.9"/>
+<circle cx="118" cy="56" r="7" fill="#A2D87E" opacity="0.85"/>
+<circle cx="135" cy="76" r="6" fill="#A2D87E" opacity="0.8"/>
+<!-- gân lá nhỏ -->
+<path d="M88 44 q4 -4 9 -4 M64 60 q4 -3 8 -3 M114 58 q4 -3 8 -3" stroke="#CDEBAB" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<!-- dây leo -->
+<path d="M70 76 C70 92 68 106 70 118" stroke="#4E8C3A" stroke-width="2" fill="none"/>
+<circle cx="70" cy="96" r="2.5" fill="#66B04B"/><circle cx="69" cy="110" r="2.2" fill="#66B04B"/>
+<path d="M132 80 C133 98 130 112 132 126" stroke="#4E8C3A" stroke-width="2" fill="none"/>
+<circle cx="131" cy="100" r="2.5" fill="#66B04B"/><circle cx="132" cy="118" r="2.2" fill="#66B04B"/>
+<path d="M112 128 C118 132 120 140 116 146 C112 142 110 134 112 128 Z" fill="#5B9E3E"/>
+<!-- đá + cỏ -->
+<ellipse cx="74" cy="170" rx="6" ry="3.5" fill="#9A9A8E"/>
+<ellipse cx="72" cy="168.5" rx="4" ry="2.2" fill="#B8B8AC"/>
+<path d="M128 170 q1 -7 4 -9 q1 6 -1 9 Z" fill="#5FA34A"/>
+<path d="M134 171 q2 -5 5 -6 q0 5 -2 7 Z" fill="#6FB75A"/>
+<path d="M64 169 q1 -6 3 -8 q1 5 0 8 Z" fill="#5FA34A"/>
+</svg>

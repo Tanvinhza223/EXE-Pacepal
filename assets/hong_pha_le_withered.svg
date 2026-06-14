@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<ellipse cx="100" cy="172" rx="54" ry="11" fill="#8A8A7A" opacity="0.7"/>
+<ellipse cx="100" cy="169" rx="50" ry="9" fill="#9C9C8A" opacity="0.7"/>
+<!-- thân xám gập đầu -->
+<path d="M100 162 C99 146 99 130 100 112 C100 102 104 96 110 94" stroke="#A88A98" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.9"/>
+<!-- lá tinh thể xỉn, một lá vỡ -->
+<path d="M99 138 L80 131 L70 136 L81 144 L97 142 Z" fill="#B8A8B0" opacity="0.6" stroke="#C9BCC4" stroke-width="1.1"/>
+<path d="M101 138 L120 129 L126 132 L118 137 L122 144 L103 142 Z" fill="#A89AA2" opacity="0.55" stroke="#B8ACB4" stroke-width="1"/>
+<!-- búp rũ xám -->
+<g transform="translate(113 96) rotate(135)">
+<path d="M-10 4 C-13 -4 -9 -11 -2 -13 C-7 -7 -8 -1 -7 5 Z" fill="#C2B2BA" opacity="0.85"/>
+<path d="M10 4 C13 -4 9 -11 2 -13 C7 -7 8 -1 7 5 Z" fill="#B2A2AA" opacity="0.85"/>
+<path d="M-7 5 C-8 -3 -4 -10 0 -11 C4 -10 8 -3 7 5 C3 8 -3 8 -7 5 Z" fill="#BAA8B2" opacity="0.9"/>
+<path d="M0 7 L-4 12 M0 7 L4 12" stroke="#8A7A84" stroke-width="1.2" stroke-linecap="round"/>
+</g>
+<!-- mảnh pha lê vỡ rơi -->
+<path d="M78 158 L83 151 L88 158 L83 163 Z" fill="#C2B2BA" opacity="0.75" stroke="#D2C6CC" stroke-width="0.8"/>
+<path d="M116 162 L120 156 L124 162 L120 166 Z" fill="#B2A2AA" opacity="0.7"/>
+<path d="M98 168 L101 164 L104 168 L101 171 Z" fill="#C2B2BA" opacity="0.65"/>
+<circle cx="90" cy="120" r="1.2" fill="#C9BCC4" opacity="0.6"/>
+</svg>

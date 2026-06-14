@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PacePal · Gieo kỷ luật, gặt thói quen</title>
+<meta name="description" content="PacePal ghép bạn với một người đồng hành và biến mỗi buổi tự học thành một cái cây sống. Lơ là, cây héo. Kiên trì, cả hai cùng gặt thành quả." />
+<meta name="theme-color" content="#070f0c" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+<!-- Social preview (đổi domain thật khi deploy) -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="PacePal" />
+<meta property="og:title" content="PacePal · Gieo kỷ luật, gặt thói quen" />
+<meta property="og:description" content="Học cùng một người đồng hành, biến mỗi buổi tự học thành một cái cây sống. Lơ là, cây héo. Kiên trì, cả hai cùng gặt thành quả." />
+<meta property="og:image" content="https://pacepal.app/assets/og.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://pacepal.app/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="PacePal · Gieo kỷ luật, gặt thói quen" />
+<meta name="twitter:description" content="Học cùng nhau, giữ streak cùng nhau. Mỗi buổi focus là một cái cây sống." />
+<meta name="twitter:image" content="https://pacepal.app/assets/og.jpg" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- ░░░ GRAIN + VIGNETTE OVERLAYS ░░░ -->
+<div class="grain" aria-hidden="true"></div>
+<div class="vignette" aria-hidden="true"></div>
+
+<!-- ░░░ CUSTOM CURSOR ░░░ -->
+<div class="cursor" aria-hidden="true">
+  <div class="cursor__dot"></div>
+  <div class="cursor__ring"></div>
+</div>
+
+<!-- ░░░ PRELOADER ░░░ -->
+<div class="preloader" data-preloader>
+  <div class="preloader__inner">
+    <div class="preloader__mark">
+      <svg viewBox="0 0 40 48" width="40" height="48" aria-hidden="true">
+        <path class="pl-stem" d="M20 46 L20 22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <path class="pl-leafL" d="M20 30 C10 28 6 20 8 12 C18 14 22 22 20 30 Z" fill="currentColor"/>
+        <path class="pl-leafR" d="M20 26 C30 24 34 16 32 8 C22 10 18 18 20 26 Z" fill="currentColor"/>
+      </svg>
+    </div>
+    <div class="preloader__count"><span data-count>0</span><i>%</i></div>
+    <div class="preloader__word">đang gieo hạt giống đầu tiên…</div>
+  </div>
+</div>
+
+<!-- ░░░ NAV ░░░ -->
+<header class="nav" data-nav>
+  <a class="nav__brand" href="#top" data-magnetic>
+    <span class="nav__leaf">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 22 L12 11 M12 15 C6 14 4 9 5 4 C11 5 14 10 12 15 Z M12 12 C18 11 20 6 19 1 C13 2 10 7 12 12 Z" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </span>
+    PacePal
+  </a>
+  <nav class="nav__links">
+    <a href="#problem" data-magnetic>Vấn đề</a>
+    <a href="#tree" data-magnetic>Cơ chế</a>
+    <a href="#features" data-magnetic>Tính năng</a>
+    <a href="#collection" data-magnetic>Bộ sưu tập</a>
+  </nav>
+  <a href="#cta" class="btn btn--ghost nav__cta" data-magnetic>
+    <span>Trồng cây đầu tiên</span>
+  </a>
+  <button class="nav__burger" data-burger aria-label="Menu"><i></i><i></i></button>
+</header>
+
+<!-- progress bar -->
+<div class="scroll-progress" data-progress aria-hidden="true"></div>
+
+<main id="top">
+
+  <!-- ░░░░░░░░░░░░░░░░░ CINEMATIC SCROLL FILM ░░░░░░░░░░░░░░░░░ -->
+  <section class="film" data-film>
+    <div class="film__sticky">
+      <video class="film__video" data-film-video muted playsinline preload="metadata" poster="assets/intro_poster.jpg">
+        <source src="assets/intro_scrub.mp4" type="video/mp4" />
+      </video>
+      <div class="film__scrim" aria-hidden="true"></div>
+      <div class="film__overlay">
+        <p class="film__brand">
+          <span class="nav__leaf"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 22 L12 11 M12 15 C6 14 4 9 5 4 C11 5 14 10 12 15 Z M12 12 C18 11 20 6 19 1 C13 2 10 7 12 12 Z" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          PacePal
+        </p>
+        <div class="film__lines">
+          <h2 class="film__line" data-film-line>Hai người. <em>Hai hòn đảo.</em></h2>
+          <h2 class="film__line" data-film-line>Một hành trình <em>kỷ luật.</em></h2>
+          <h2 class="film__line" data-film-line>Cùng nhau, <em>không ai bỏ cuộc.</em></h2>
+        </div>
+        <div class="film__cue" data-film-cue><span>cuộn để xem câu chuyện</span><i></i></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░░░░░░░░░░░░░░░░ HERO ░░░░░░░░░░░░░░░░░ -->
+  <section class="hero" data-hero>
+    <canvas class="hero__canvas" data-three aria-hidden="true"></canvas>
+    <div class="hero__aurora" aria-hidden="true"></div>
+
+    <div class="hero__inner">
+      <p class="kicker hero__kicker" data-reveal>
+        <span class="kicker__dot"></span> HỌC CÙNG NHAU · GIỮ STREAK CÙNG NHAU
+      </p>
+
+      <h1 class="hero__title">
+        <span class="line" data-split>Gieo kỷ luật,</span>
+        <span class="line" data-split>gặt <em>thói quen.</em></span>
+      </h1>
+
+      <p class="hero__sub" data-reveal>
+        Tự học online rất dễ bỏ cuộc trong im lặng. PacePal ghép bạn với một người
+        đồng hành và biến mỗi buổi tập trung thành một cái cây sống.
+        <b>Lơ là thì cây héo, kiên trì thì cả hai cùng lớn.</b>
+      </p>
+
+      <div class="hero__actions" data-reveal>
+        <a href="#cta" class="btn btn--solid" data-magnetic><span>Bắt đầu miễn phí</span></a>
+        <a href="#tree" class="btn btn--text" data-magnetic>
+          <span>Xem cơ chế</span>
+          <svg viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- interactive growing tree on a floating island -->
+    <div class="hero__stage" data-tree-stage>
+      <div class="island" data-tree-click role="button" tabindex="0" aria-label="Bấm để nuôi cây lớn">
+        <div class="island__glow" aria-hidden="true"></div>
+        <div class="island__rings" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div class="tree-wrap">
+          <img class="tree-layer" data-stage="1" src="assets/co_thu_stage1.svg" alt="Mầm cây giai đoạn 30 phút" />
+          <img class="tree-layer" data-stage="2" src="assets/co_thu_stage2.svg" alt="Cây non giai đoạn 60 phút" />
+          <img class="tree-layer" data-stage="3" src="assets/co_thu_stage3.svg" alt="Cây lớn giai đoạn 120 phút" />
+          <img class="tree-layer" data-stage="4" src="assets/co_thu_stage4.svg" alt="Cổ thụ giai đoạn 180 phút" />
+          <div class="tree-spark" data-tree-spark aria-hidden="true"></div>
+        </div>
+        <img class="island__duo" src="assets/duo_study.svg" alt="Hai người bạn cùng học dưới gốc cây" />
+        <div class="tree-rain" data-rain aria-hidden="true"></div>
+        <div class="island__disc" aria-hidden="true"></div>
+      </div>
+
+      <div class="tree-readout" data-readout>
+        <span class="tree-readout__time" data-rt-time>30</span><i>phút tập trung</i>
+        <span class="tree-readout__label" data-rt-label>Mầm non</span>
+      </div>
+
+      <div class="tree-controls">
+        <div class="tree-progress" data-tree-progress aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+        <button class="tree-nurture" data-nurture>
+          <svg viewBox="0 0 24 24" width="15" height="15"><path d="M12 3c3 4 6 6 6 10a6 6 0 01-12 0c0-4 3-6 6-10z" fill="currentColor"/></svg>
+          <span data-nurture-label>Tưới cây</span>
+        </button>
+      </div>
+      <div class="tree-species" data-species aria-label="Đổi loài cây"></div>
+      <div class="tree-hint" data-tree-hint>Cuộn để cây lớn / nhỏ · tưới để lớn thêm · kéo xoay · bấm rung</div>
+    </div>
+
+    <div class="hero__scrollcue" data-reveal>
+      <span>cuộn để cây lớn</span>
+      <div class="hero__scrollcue-line"><i></i></div>
+    </div>
+  </section>
+
+  <!-- ░░░░░░░░░░░░░░░░░ GROVE — vườn chung đủ loài ░░░░░░░░░░░░░░░░░ -->
+  <section class="grove" data-grove>
+    <div class="container grove__head">
+      <p class="kicker" data-reveal><span class="kicker__dot"></span> KHU VƯỜN CHUNG</p>
+      <h2 class="section-title" data-words>Cây trưởng thành được mang về khu vườn, nơi mọi loài cùng mọc trên một mảnh đất.</h2>
+      <p class="lead lead--center" data-reveal>Khởi đầu chỉ là mảnh đất cằn cỗi. Mỗi chuỗi kiên trì bạn hoàn thành lại thắp thêm sự sống. <b>Rê chuột để tô sáng cho khu vườn bừng nở.</b></p>
+    </div>
+
+    <!-- spotlight reveal: barren ground (base) → lush garden (revealed under cursor) -->
+    <div class="reveal-garden" data-reveal-garden>
+      <div class="reveal-garden__base" style="background-image:url('assets/garden_base.webp')" aria-hidden="true"></div>
+      <div class="reveal-garden__lush" data-reveal-lush style="background-image:url('assets/garden_lush.webp')" role="img" aria-label="Khu vườn rực rỡ khi được chăm sóc mỗi ngày"></div>
+      <div class="reveal-garden__vignette" aria-hidden="true"></div>
+      <div class="reveal-garden__hint" data-reveal-hint>
+        <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><circle cx="12" cy="12" r="3.5" fill="currentColor"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        Rê chuột để khu vườn sống dậy
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░░░░░░░░░░░░░░░░ MARQUEE / MANIFESTO ░░░░░░░░░░░░░░░░░ -->
+  <section class="manifesto">
+    <div class="marquee" data-marquee aria-hidden="true">
+      <div class="marquee__row">
+        <span>KỶ LUẬT ĐỒNG ĐỘI</span><span class="dot">✦</span>
+        <span>HỌC THẬT · FOCUS THẬT</span><span class="dot">✦</span>
+        <span>LỘ TRÌNH DO AI XÂY</span><span class="dot">✦</span>
+        <span>NUÔI CÂY CHUNG</span><span class="dot">✦</span>
+        <span>KỶ LUẬT ĐỒNG ĐỘI</span><span class="dot">✦</span>
+        <span>HỌC THẬT · FOCUS THẬT</span><span class="dot">✦</span>
+        <span>LỘ TRÌNH DO AI XÂY</span><span class="dot">✦</span>
+        <span>NUÔI CÂY CHUNG</span><span class="dot">✦</span>
+      </div>
+    </div>
+
+    <div class="manifesto__body container">
+      <p class="kicker" data-reveal><span class="kicker__dot"></span> TẠI SAO PACEPAL TỒN TẠI</p>
+      <h2 class="manifesto__line">
+        <span data-words>Ý chí thì hữu hạn. Nhưng <em>trách nhiệm với một người khác</em>, và một mầm sống đang lớn, luôn kéo bạn quay lại bàn học.</span>
+      </h2>
+    </div>
+  </section>
+
+  <!-- ░░░░░░░░░░░░░░░░░ PROBLEM — pinned horizontal ░░░░░░░░░░░░░░░░░ -->
+  <section class="problem" id="problem" data-problem>
+    <div class="problem__head container">
+      <p class="kicker" data-reveal><span class="kicker__dot"></span> 4 KẺ GIẾT ĐỘNG LỰC THẦM LẶNG</p>
+      <h2 class="section-title" data-words>Điều khiến người tự học bỏ cuộc không phải sự lười, mà là bốn cái bẫy này.</h2>
+    </div>
+
+    <div class="problem__track" data-track>
+      <article class="pain" data-pain>
+        <div class="pain__no">01</div>
+        <h3 class="pain__title">Mất phương hướng</h3>
+        <p class="pain__desc">Hàng tá PDF, link, video YouTube… nhưng không có một lộ trình chia nhỏ theo ngày. Ngợp ngay từ bước chuẩn bị → trì hoãn.</p>
+        <div class="pain__fix"><span>PacePal</span> AI biến tài liệu của bạn thành nhiệm vụ mỗi ngày.</div>
+      </article>
+      <article class="pain" data-pain>
+        <div class="pain__no">02</div>
+        <h3 class="pain__title">Bỏ cuộc trong im lặng</h3>
+        <p class="pain__desc">Học một mình, không ai nhìn vào, không hệ quả. Khi nản, bạn âm thầm biến mất, chẳng ai biết để kéo bạn lại.</p>
+        <div class="pain__fix"><span>PacePal</span> Ghép cặp + cây chung: bạn lười, cây của cả hai chết.</div>
+      </article>
+      <article class="pain" data-pain>
+        <div class="pain__no">03</div>
+        <h3 class="pain__title">Ảo tưởng tập trung</h3>
+        <p class="pain__desc">Mở tài liệu lên rồi lướt TikTok. "Học thụ động" khiến bạn ngồi 3 tiếng mà não ở nơi khác.</p>
+        <div class="pain__fix"><span>PacePal</span> Popup "Save your tree" + form gõ tay buộc bạn focus thật.</div>
+      </article>
+      <article class="pain" data-pain>
+        <div class="pain__no">04</div>
+        <h3 class="pain__title">Thiếu thưởng tức thì</h3>
+        <p class="pain__desc">Tiến bộ đến chậm, còn não bạn quen phản hồi nhanh. Học vài ngày chưa thấy kết quả là tụt mood.</p>
+        <div class="pain__fix"><span>PacePal</span> Nhiệm vụ ngày + BXH tháng + vật phẩm cứu streak.</div>
+      </article>
+      <div class="problem__spacer" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- ░░░░░░░░░░░░░░░░░ THE SHARED TREE ░░░░░░░░░░░░░░░░░ -->
+  <section class="tree-sec" id="tree" data-treesec>
+    <div class="container tree-sec__grid">
+      <div class="tree-sec__copy">
+        <p class="kicker" data-reveal><span class="kicker__dot"></span> CƠ CHẾ CỐT LÕI</p>
+        <h2 class="section-title" data-words>Một cái cây. Hai người. Không ai được phép lười.</h2>
+        <p class="lead" data-reveal>
+          Mỗi cặp nuôi chung <b>một cái cây đại diện</b>. Cả hai cùng vào học mỗi ngày
+          (tối thiểu 30 phút) thì cây sống và lớn. Chỉ cần một người đứt streak,
+          cây của <em>cả hai</em> héo. Trách nhiệm cá nhân trở thành trách nhiệm đồng đội.
+        </p>
+
+        <ul class="tree-sec__stats" data-reveal>
+          <li><b data-counter="30">0</b><span>phút tối thiểu / ngày để ghi nhận</span></li>
+          <li><b data-counter="3">0</b><span>vật phẩm cứu streak mỗi cặp / tháng</span></li>
+          <li><b data-counter="4">0</b><span>giai đoạn lớn của cây: 30·60·120·180′</span></li>
+        </ul>
+
+        <div class="tree-sec__toggle" data-reveal>
+          <span class="toggle-label">Kéo để thấy điều gì xảy ra khi bạn lơ là</span>
+          <div class="toggle-track" data-witherer>
+            <div class="toggle-fill" data-wither-fill></div>
+            <input type="range" min="0" max="100" value="0" data-wither-range aria-label="Mức độ héo của cây" />
+            <div class="toggle-knob" data-wither-knob>
+              <svg viewBox="0 0 24 24" width="16" height="16"><path d="M8 9l4 4 4-4M8 15h8" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+          <div class="toggle-ends"><span>Khỏe mạnh</span><span data-wither-state>Héo úa</span></div>
+        </div>
+      </div>
+
+      <div class="tree-sec__visual">
+        <div class="treecard" data-tilt>
+          <div class="treecard__glow" aria-hidden="true"></div>
+          <div class="treecard__stack">
+            <img class="treecard__img treecard__img--alive" src="assets/co_thu_stage4.svg" alt="Cây khỏe mạnh" data-wither-alive />
+            <img class="treecard__img treecard__img--dead" src="assets/co_thu_withered.svg" alt="Cây héo úa" data-wither-dead />
+            <img class="treecard__duo" src="assets/duo_study.svg" alt="Hai người bạn cùng giữ cây sống" />
+          </div>
+          <div class="treecard__pair">
+            <span class="avatar">A</span>
+            <div class="treecard__link"><i></i><i></i><i></i></div>
+            <span class="avatar avatar--b">B</span>
+          </div>
+          <div class="treecard__meta">
+            <span class="streak"><svg class="flame" viewBox="0 0 24 24" width="14" height="14"><path d="M12 2c1 4-2 5-2 8a4 4 0 008 0c0-3-3-4-3-7 3 2 5 5 5 9a8 8 0 01-16 0c0-4 4-6 8-10z" fill="currentColor"/></svg> 27 ngày streak</span>
+            <span class="pairname">Minh ✦ Lan</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░░░░░░░░░░░░░░░░ SAVE YOUR TREE — interactive ░░░░░░░░░░░░░░░░░ -->
+  <section class="save" data-save>
+    <div class="container save__grid">
+      <div class="save__copy">
+        <p class="kicker" data-reveal><span class="kicker__dot"></span> GIÁM SÁT TƯƠNG TÁC</p>
+        <h2 class="section-title" data-words>Học theo phiên Pomodoro. Giờ nghỉ, cứu cây khỏi lốc xoáy.</h2>
+        <p class="lead" data-reveal>
+          Mỗi phiên bạn tự đặt thời lượng học (25 · 45 · 50 phút). Học xong là 5 phút nghỉ,
+          và đúng lúc đó một <b>cơn lốc xoáy</b> xuất hiện. Bấm trúng nó trong vòng 5 phút để cứu cây.
+          <b>Bỏ lỡ: cây tổn hại và toàn bộ số phút vừa học sẽ không được tính.</b>
+        </p>
+        <div class="save__hint" data-reveal>
+          <kbd>Thử</kbd> Chọn thời lượng → <i>Bắt đầu phiên</i> → rình bấm (hoặc cố tình bỏ lỡ) cơn lốc.
+        </div>
+      </div>
+
+      <div class="save__demo">
+        <div class="demo-window">
+          <div class="demo-window__bar"><i></i><i></i><i></i><span data-pomo-clock>25:00</span></div>
+          <div class="demo-stage">
+            <div class="demo-tree" data-demo-tree>
+              <img src="assets/co_thu_stage3.svg" alt="Cây trong phiên học" />
+              <div class="leaf-fall" data-leaves></div>
+            </div>
+
+            <div class="pomo-bar" data-pomo-bar><i></i></div>
+
+            <!-- break tornado mini-game -->
+            <button class="tornado" data-tornado type="button" aria-label="Bấm vào lốc xoáy để cứu cây">
+              <svg class="tornado__timer" viewBox="0 0 92 92" width="92" height="92">
+                <circle cx="46" cy="46" r="42" class="ring-bg"/>
+                <circle cx="46" cy="46" r="42" class="ring-fg" data-tornado-ring/>
+              </svg>
+              <svg class="tornado__art" viewBox="0 0 80 96" width="80" height="96">
+                <defs><linearGradient id="tor_g" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c3cfdd"/><stop offset="100%" stop-color="#5a6878"/></linearGradient></defs>
+                <g class="tornado__funnel">
+                  <ellipse cx="40" cy="12" rx="34" ry="9" fill="url(#tor_g)" opacity="0.92"/>
+                  <ellipse cx="40" cy="30" rx="27" ry="7" fill="url(#tor_g)" opacity="0.82"/>
+                  <ellipse cx="40" cy="48" rx="20" ry="6" fill="url(#tor_g)" opacity="0.76"/>
+                  <ellipse cx="40" cy="64" rx="13" ry="5" fill="url(#tor_g)" opacity="0.7"/>
+                  <ellipse cx="40" cy="80" rx="7" ry="4" fill="url(#tor_g)" opacity="0.64"/>
+                </g>
+                <g class="tornado__swirl" stroke="#eaf1f8" stroke-width="1.4" fill="none" opacity="0.5" stroke-linecap="round">
+                  <path d="M12 12 q28 9 56 0"/><path d="M17 30 q23 7 46 0"/><path d="M23 48 q17 6 34 0"/><path d="M29 64 q11 5 22 0"/>
+                </g>
+              </svg>
+              <span class="tornado__label">Bấm!</span>
+            </button>
+
+            <div class="demo-result" data-demo-result></div>
+          </div>
+          <div class="demo-controls">
+            <div class="pomo-set" data-pomo-set>
+              <span class="pomo-set__lbl">Phiên</span>
+              <button class="pomo-pill is-active" data-min="25" type="button">25′</button>
+              <button class="pomo-pill" data-min="45" type="button">45′</button>
+              <button class="pomo-pill" data-min="50" type="button">50′</button>
+            </div>
+            <button class="btn btn--ghost" data-play-session type="button"><span>Bắt đầu phiên</span></button>
+            <div class="demo-status" data-demo-status>Chọn thời lượng</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░░░░░░░░░░░░░░░░ FEATURES — bento ░░░░░░░░░░░░░░░░░ -->
+  <section class="features" id="features" data-features>
+    <div class="container">
+      <p class="kicker" data-reveal><span class="kicker__dot"></span> HỆ SINH THÁI</p>
+      <h2 class="section-title features__title" data-words>Mọi thứ bạn cần để biến việc tự học thành một màn chơi đồng đội.</h2>
+
+      <div class="bento">
+        <article class="bento__cell bento__cell--wide" data-reveal data-tilt>
+          <div class="bento__icon">✺</div>
+          <h3>Lộ trình do AI cá nhân hoá</h3>
+          <p>Có tài liệu? AI số hoá file/link của bạn thành lộ trình. Chưa có gì? AI tự đề xuất theo mục tiêu, rồi chia nhỏ thành nhiệm vụ mỗi ngày.</p>
+          <div class="bento__chips"><span>Upload PDF</span><span>Link tham khảo</span><span>Mục tiêu cá nhân</span><span>Nhiệm vụ / ngày</span></div>
+        </article>
+
+        <article class="bento__cell" data-reveal data-tilt>
+          <div class="bento__icon">⤬</div>
+          <h3>Ghép cặp thông minh</h3>
+          <p>AI lọc theo lớp: lĩnh vực học, thời gian cam kết. Để hệ thống random, hoặc tự pick người bạn đồng hành.</p>
+        </article>
+
+        <article class="bento__cell" data-reveal data-tilt>
+          <div class="bento__icon">✎</div>
+          <h3>Tổng kết gõ tay</h3>
+          <p>Cuối buổi, viết lại điều đã học, bắt buộc gõ tay, không copy/paste. Học thụ động hoá chủ động.</p>
+        </article>
+
+        <article class="bento__cell" data-reveal data-tilt>
+          <div class="bento__icon">♦</div>
+          <h3>Nhiệm vụ & phần thưởng</h3>
+          <p>Nhiệm vụ làm mới mỗi ngày. Hoàn thành để giữ chuỗi và nhận thưởng, động lực ngắn hạn cho mục tiêu dài hạn.</p>
+        </article>
+
+        <article class="bento__cell bento__cell--wide" data-reveal data-tilt>
+          <div class="bento__icon">⌁</div>
+          <h3>AI điều chỉnh theo tiến độ thật</h3>
+          <p>Cuối ngày, AI đối chiếu phần bạn nhập với lộ trình. Hoàn thành thì đi tiếp; chưa kịp thì AI tự sắp xếp lại các ngày sau cho vừa sức bạn.</p>
+          <div class="bento__chips"><span>Checkbox cuối buổi</span><span>Tự cân bằng lộ trình</span><span>Không bỏ ai lại phía sau</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░░░░░░░░░░░░░░░░ COLLECTION / RARITY ░░░░░░░░░░░░░░░░░ -->
+  <section class="collection" id="collection" data-collection>
+    <div class="container">
+      <p class="kicker" data-reveal><span class="kicker__dot"></span> BỘ SƯU TẬP</p>
+      <h2 class="section-title" data-words>Mỗi chuỗi kiên trì mở khoá một loài cây. Có loài rất hiếm.</h2>
+      <p class="lead lead--center" data-reveal>Từ cổ thụ đời thường đến những loài huyền ảo phát sáng, phần thưởng cho người đi đường dài.</p>
+
+      <div class="tiers">
+        <button class="tier-pill is-active" data-tier="all"><span>Tất cả</span></button>
+        <button class="tier-pill" data-tier="normal"><i class="dot dot--normal"></i><span>Normal</span></button>
+        <button class="tier-pill" data-tier="epic"><i class="dot dot--epic"></i><span>Epic</span></button>
+        <button class="tier-pill" data-tier="legendary"><i class="dot dot--legendary"></i><span>Legendary</span></button>
+      </div>
+
+      <div class="gallery" data-gallery>
+        <!-- Normal -->
+        <figure class="plant" data-tier="normal" data-reveal>
+          <div class="plant__frame"><img src="assets/co_thu_stage4.svg" alt="Cổ Thụ" loading="lazy"/></div>
+          <figcaption><span class="plant__name">Cổ Thụ</span><span class="badge badge--normal">Normal</span></figcaption>
+        </figure>
+        <figure class="plant" data-tier="normal" data-reveal>
+          <div class="plant__frame"><img src="assets/huong_duong_stage4.svg" alt="Hướng Dương" loading="lazy"/></div>
+          <figcaption><span class="plant__name">Hướng Dương</span><span class="badge badge--normal">Normal</span></figcaption>
+        </figure>
+        <figure class="plant" data-tier="normal" data-reveal>
+          <div class="plant__frame"><img src="assets/nam_tien_stage4.svg" alt="Nấm Tiên" loading="lazy"/></div>
+          <figcaption><span class="plant__name">Nấm Tiên</span><span class="badge badge--normal">Normal</span></figcaption>
+        </figure>
+        <!-- Epic -->
+        <figure class="plant" data-tier="epic" data-reveal>
+          <div class="plant__frame plant__frame--epic"><img src="assets/sen_ngoc_stage4.svg" alt="Sen Ngọc" loading="lazy"/></div>
+          <figcaption><span class="plant__name">Sen Ngọc</span><span class="badge badge--epic">Epic</span></figcaption>
+        </figure>
+        <figure class="plant" data-tier="epic" data-reveal>
+          <div class="plant__frame plant__frame--epic"><img src="assets/den_long_stage4.svg" alt="Đèn Lồng" loading="lazy"/></div>
+          <figcaption><span class="plant__name">Đèn Lồng</span><span class="badge badge--epic">Epic</span></figcaption>
+        </figure>
+        <figure class="plant" data-tier="epic" data-reveal>
+          <div class="plant__frame plant__frame--epic"><img src="assets/san_ho_stage4.svg" alt="San Hô" loading="lazy"/></div>
+          <figcaption><span class="plant__name">San Hô</span><span class="badge badge--epic">Epic</span></figcaption>
+        </figure>
+        <!-- Legendary (animated) -->
+        <figure class="plant plant--legendary" data-tier="legendary" data-reveal>
+          <div class="plant__frame plant__frame--legendary"><img src="assets/tinh_van_anim.svg" alt="Tinh Vân" loading="lazy"/></div>
+          <figcaption><span class="plant__name">Tinh Vân</span><span class="badge badge--legendary">Legendary</span></figcaption>
+        </figure>
+        <figure class="plant plant--legendary" data-tier="legendary" data-reveal>
+          <div class="plant__frame plant__frame--legendary"><img src="assets/hong_pha_le_anim.svg" alt="Hồng Pha Lê" loading="lazy"/></div>
+          <figcaption><span class="plant__name">Hồng Pha Lê</span><span class="badge badge--legendary">Legendary</span></figcaption>
+        </figure>
+        <figure class="plant plant--legendary" data-tier="legendary" data-reveal>
+          <div class="plant__frame plant__frame--legendary"><img src="assets/hoa_lua_anim.svg" alt="Hoa Lửa" loading="lazy"/></div>
+          <figcaption><span class="plant__name">Hoa Lửa</span><span class="badge badge--legendary">Legendary</span></figcaption>
+        </figure>
+        <figure class="plant plant--legendary" data-tier="legendary" data-reveal>
+          <div class="plant__frame plant__frame--legendary"><img src="assets/tuyet_linh_stage4.svg" alt="Tuyết Linh" loading="lazy"/></div>
+          <figcaption><span class="plant__name">Tuyết Linh</span><span class="badge badge--legendary">Legendary</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░░░░░░░░░░░░░░░░ LEADERBOARD ░░░░░░░░░░░░░░░░░ -->
+  <section class="board" data-board>
+    <div class="container board__grid">
+      <div class="board__copy">
+        <p class="kicker" data-reveal><span class="kicker__dot"></span> BẢNG THÀNH TÍCH THÁNG</p>
+        <h2 class="section-title" data-words>Streak được chuẩn hoá thành bảng xếp hạng mỗi tháng, cho cả cá nhân lẫn cặp đôi.</h2>
+        <p class="lead" data-reveal>Chuỗi càng dài, hạng càng cao. Một chút ganh đua lành mạnh để không ai muốn là người làm đứt chuỗi. Xem hạng <b>Đôi</b> hoặc thành tích <b>Đơn</b> của riêng bạn.</p>
+      </div>
+
+      <div class="board__panel" data-reveal>
+        <div class="board__tabs" data-board-tabs>
+          <button class="board-tab is-active" data-board-tab="pair">Đôi</button>
+          <button class="board-tab" data-board-tab="solo">Đơn</button>
+          <span class="board-tabs__glider" data-board-glider></span>
+        </div>
+
+        <ol class="ladder is-active" data-ladder="pair">
+          <li class="ladder__row ladder__row--1"><span class="rank">01</span><span class="who"><span class="who-av">K</span><span class="who-av who-av--b">V</span>Khoa ✦ Vy</span><span class="bar"><i style="--w:100%"></i></span><span class="val">128</span></li>
+          <li class="ladder__row ladder__row--2"><span class="rank">02</span><span class="who"><span class="who-av">D</span><span class="who-av who-av--b">H</span>Duy ✦ Hà</span><span class="bar"><i style="--w:86%"></i></span><span class="val">110</span></li>
+          <li class="ladder__row ladder__row--3"><span class="rank">03</span><span class="who"><span class="who-av">M</span><span class="who-av who-av--b">L</span>Minh ✦ Lan</span><span class="bar"><i style="--w:72%"></i></span><span class="val">92</span></li>
+          <li class="ladder__row"><span class="rank">04</span><span class="who"><span class="who-av">A</span><span class="who-av who-av--b">P</span>An ✦ Phúc</span><span class="bar"><i style="--w:58%"></i></span><span class="val">74</span></li>
+          <li class="ladder__row"><span class="rank">05</span><span class="who"><span class="who-av">B</span><span class="who-av who-av--b">N</span>Bảo ✦ Như</span><span class="bar"><i style="--w:41%"></i></span><span class="val">53</span></li>
+        </ol>
+
+        <ol class="ladder" data-ladder="solo" hidden>
+          <li class="ladder__row ladder__row--1"><span class="rank">01</span><span class="who"><span class="who-av">Q</span>Quân</span><span class="bar"><i style="--w:100%"></i></span><span class="val">96</span></li>
+          <li class="ladder__row ladder__row--2"><span class="rank">02</span><span class="who"><span class="who-av">V</span>Vy</span><span class="bar"><i style="--w:92%"></i></span><span class="val">88</span></li>
+          <li class="ladder__row ladder__row--3"><span class="rank">03</span><span class="who"><span class="who-av">H</span>Hà</span><span class="bar"><i style="--w:82%"></i></span><span class="val">79</span></li>
+          <li class="ladder__row"><span class="rank">04</span><span class="who"><span class="who-av">L</span>Lan</span><span class="bar"><i style="--w:74%"></i></span><span class="val">71</span></li>
+          <li class="ladder__row"><span class="rank">05</span><span class="who"><span class="who-av">M</span>Minh</span><span class="bar"><i style="--w:67%"></i></span><span class="val">64</span></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░░░░░░░░░░░░░░░░ CTA ░░░░░░░░░░░░░░░░░ -->
+  <section class="cta" id="cta" data-cta>
+    <div class="cta__glow" aria-hidden="true"></div>
+    <div class="container cta__inner">
+      <p class="kicker" data-reveal><span class="kicker__dot"></span> SẴN SÀNG CHƯA?</p>
+      <h2 class="cta__title">
+        <span class="line" data-split>Gieo hạt giống đầu tiên</span>
+        <span class="line" data-split>của bạn <em>hôm nay.</em></span>
+      </h2>
+      <p class="cta__sub" data-reveal>Tìm một người đồng hành, để AI dựng lộ trình, và cùng nhau giữ một cái cây sống qua từng ngày.</p>
+      <div class="cta__actions" data-reveal>
+        <a href="#top" class="btn btn--solid btn--lg" data-magnetic><span>Trồng cây đầu tiên, miễn phí</span></a>
+        <a href="#top" class="btn btn--text" data-magnetic><span>Xem demo lộ trình</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░░░░░░░░░░░░░░░░ FOOTER ░░░░░░░░░░░░░░░░░ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="nav__brand" href="#top"><span class="nav__leaf"><svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 22 L12 11 M12 15 C6 14 4 9 5 4 C11 5 14 10 12 15 Z M12 12 C18 11 20 6 19 1 C13 2 10 7 12 12 Z" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></span>PacePal</a>
+        <p>Kỷ luật tự thân, nuôi dưỡng cùng nhau.</p>
+      </div>
+      <div class="footer__cols">
+        <div><h4>Sản phẩm</h4><a href="#tree">Cơ chế cây</a><a href="#features">Tính năng</a><a href="#collection">Bộ sưu tập</a></div>
+        <div><h4>Vấn đề</h4><a href="#problem">4 nỗi đau</a><a href="#save">Giám sát focus</a><a href="#board">Bảng xếp hạng</a></div>
+        <div><h4>Liên hệ</h4><a href="#top">Về chúng tôi</a><a href="#top">Mentor</a><a href="#top">Email</a></div>
+      </div>
+    </div>
+    <div class="footer__base container">
+      <span>© 2026 PacePal. Một dự án học tập.</span>
+      <span>Made with focus, not willpower.</span>
+    </div>
+  </footer>
+
+</main>
+
+<!-- ░░░ SCRIPTS ░░░ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+<script type="importmap">
+{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" } }
+</script>
+<script type="module" src="js/hero3d.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

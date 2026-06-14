@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<style>
+.hlA-glow{animation:hlA-pulse 3.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes hlA-pulse{0%,100%{opacity:.65;transform:scale(1)}50%{opacity:1;transform:scale(1.06)}}
+.hlA-sp{animation:hlA-tw 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.hlA-sp2{animation-delay:.8s}.hlA-sp3{animation-delay:1.5s}
+@keyframes hlA-tw{0%,100%{opacity:.15;transform:scale(.6)}50%{opacity:1;transform:scale(1.2)}}
+
+.hlA-glow{animation-duration:2.8s}
+.hlA-core{animation:hlA-fl 1.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center bottom}
+@keyframes hlA-fl{0%,100%{opacity:.9;transform:scaleY(1)}30%{opacity:1;transform:scaleY(1.1)}60%{opacity:.85;transform:scaleY(.95)}}
+.hlA-em{animation:hlA-rise 3.6s ease-out infinite}
+.hlA-em2{animation-delay:.9s}.hlA-em3{animation-delay:1.8s}.hlA-em4{animation-delay:2.6s}
+@keyframes hlA-rise{0%{transform:translateY(6px);opacity:0}25%{opacity:1}100%{transform:translateY(-26px);opacity:0}}
+.hlA-fp{animation:hlA-fpk 4.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes hlA-fpk{0%,100%{opacity:.5;transform:scale(.9)}50%{opacity:1;transform:scale(1.12)}}
+</style>
+<defs>
+<radialGradient id="hl_g"><stop offset="0%" stop-color="#FF5E5E" stop-opacity="0.4"/><stop offset="60%" stop-color="#E83A3A" stop-opacity="0.16"/><stop offset="100%" stop-color="#E83A3A" stop-opacity="0"/></radialGradient>
+<radialGradient id="hl_core"><stop offset="0%" stop-color="#FFF3C4"/><stop offset="60%" stop-color="#FFB347"/><stop offset="100%" stop-color="#F2545B"/></radialGradient>
+<linearGradient id="hl_pet" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#A61B2E"/><stop offset="55%" stop-color="#E8323E"/><stop offset="100%" stop-color="#FF7E6B"/></linearGradient>
+<linearGradient id="hl_stem" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7A1626"/><stop offset="50%" stop-color="#B3273A"/><stop offset="100%" stop-color="#5E0F1C"/></linearGradient>
+</defs>
+<ellipse cx="100" cy="172" rx="52" ry="11" fill="#8C6A5E" opacity="0.7"/>
+<ellipse cx="100" cy="169" rx="48" ry="9" fill="#A3837A" opacity="0.7"/>
+<ellipse class="hlA-glow" cx="100" cy="84" rx="58" ry="56" fill="url(#hl_g)"/>
+<!-- thân cao -->
+<path d="M101 166 C99 146 98 124 99 96" stroke="url(#hl_stem)" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M100 160 C99 144 99 126 99.5 104" stroke="#FF9E8A" stroke-width="1.2" fill="none" opacity="0.8"/>
+<path d="M100 134 C92 130 87 124 86 116 C93 119 98 126 100 132 Z" fill="url(#hl_pet)" opacity="0.9"/>
+<!-- lõi sáng -->
+<ellipse class="hlA-core" cx="100" cy="74" rx="13" ry="20" fill="url(#hl_core)"/>
+<!-- cánh lửa cong -->
+<path d="M98 92 C82 86 74 72 76 56 C80 60 84 62 84 56 C84 48 88 42 96 38 C92 48 94 56 100 62 C96 70 96 82 98 92 Z" fill="url(#hl_pet)"/>
+<path d="M102 92 C118 86 126 72 124 56 C120 60 116 62 116 56 C116 48 112 42 104 38 C108 48 106 56 100 62 C104 70 104 82 102 92 Z" fill="url(#hl_pet)"/>
+<path d="M96 90 C86 78 84 64 90 50 C86 64 90 76 98 86 Z" fill="#FF7E6B" opacity="0.9"/>
+<path d="M104 90 C114 78 116 64 110 50 C114 64 110 76 102 86 Z" fill="#FF7E6B" opacity="0.9"/>
+<path d="M100 92 C92 80 92 62 100 50 C108 62 108 80 100 92 Z" fill="url(#hl_pet)"/>
+<path d="M100 88 C95 78 95 64 100 56 C105 64 105 78 100 88 Z" fill="#FFB347" opacity="0.85"/>
+<!-- tia tơ sáng quanh cánh -->
+<path d="M84 84 C72 76 66 62 70 46" stroke="#FFD9C2" stroke-width="1.1" fill="none" opacity="0.85"/>
+<path d="M116 84 C128 76 134 62 130 46" stroke="#FFD9C2" stroke-width="1.1" fill="none" opacity="0.85"/>
+<path d="M92 40 C94 32 100 26 108 26" stroke="#FFD9C2" stroke-width="1" fill="none" opacity="0.75"/>
+<path d="M76 60 C70 54 68 46 70 38" stroke="#FFB0A0" stroke-width="0.9" fill="none" opacity="0.7"/>
+<path d="M124 60 C130 54 132 46 130 38" stroke="#FFB0A0" stroke-width="0.9" fill="none" opacity="0.7"/>
+<!-- cánh rơi phát sáng -->
+<circle class="hlA-fp" cx="64" cy="142" r="9" fill="url(#hl_g)"/>
+<path d="M60 146 C58 140 60 134 66 132 C68 138 66 144 62 147 Z" fill="url(#hl_pet)"/>
+<path d="M61 144 C60 140 62 136 65 134" stroke="#FFD9C2" stroke-width="0.9" fill="none" opacity="0.8"/>
+<!-- tàn lửa -->
+<circle class="hlA-em" cx="76" cy="100" r="1.8" fill="#FFB347" opacity="0.95"/>
+<circle class="hlA-em hlA-em2" cx="128" cy="92" r="1.6" fill="#FF7E6B" opacity="0.9"/>
+<circle class="hlA-em hlA-em3" cx="86" cy="34" r="1.5" fill="#FFD9C2" opacity="0.9"/>
+<circle class="hlA-em hlA-em4" cx="118" cy="30" r="1.4" fill="#FFB347" opacity="0.85"/>
+<circle class="hlA-em hlA-em2" cx="138" cy="118" r="1.5" fill="#FF7E6B" opacity="0.8"/>
+<circle class="hlA-em hlA-em3" cx="58" cy="116" r="1.3" fill="#FFB347" opacity="0.8"/>
+<path class="hlA-sp" d="M70 70 l1.5 3.4 3.4 1.5 -3.4 1.5 -1.5 3.4 -1.5 -3.4 -3.4 -1.5 3.4 -1.5 Z" fill="#FFE9A8" opacity="0.95"/>
+<path class="hlA-sp hlA-sp2" d="M132 76 l1.3 3 3 1.3 -3 1.3 -1.3 3 -1.3 -3 -3 -1.3 3 -1.3 Z" fill="#FFD9C2" opacity="0.9"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<defs>
+<radialGradient id="t2g"><stop offset="0%" stop-color="#7FB8FF" stop-opacity="0.38"/><stop offset="100%" stop-color="#5C8FE8" stop-opacity="0"/></radialGradient>
+<linearGradient id="t2s" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#A8CCEE"/><stop offset="50%" stop-color="#E8F4FF"/><stop offset="100%" stop-color="#8FB8E2"/></linearGradient>
+</defs>
+<ellipse cx="100" cy="172" rx="54" ry="11" fill="#5E7A99" opacity="0.6"/>
+<ellipse cx="100" cy="169" rx="50" ry="9" fill="#7A98B8" opacity="0.6"/>
+<circle cx="100" cy="120" r="36" fill="url(#t2g)"/>
+<path d="M100 166 C99 150 98 136 99 122" stroke="#5C8FE8" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.45"/>
+<path d="M100 166 C99 150 98 136 99 122" stroke="url(#t2s)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<!-- nụ pha lê kim cương -->
+<path d="M99 122 L88 106 L99 84 L110 106 Z" fill="#BFDCFF" opacity="0.9"/>
+<path d="M99 122 L88 106 L99 98 Z" fill="#DCEBFF" opacity="0.95"/>
+<path d="M99 122 L110 106 L99 98 Z" fill="#9CC4F2" opacity="0.95"/>
+<path d="M99 84 L99 122 M88 106 L110 106" stroke="#FFFFFF" stroke-width="1" opacity="0.8"/>
+<circle cx="99" cy="84" r="2.4" fill="#FFFFFF"/>
+<path d="M78 156 C74 149 74 142 78 136 C81 143 81 150 80 156 Z" fill="#DCEBFF" opacity="0.85"/>
+<path d="M122 158 C126 151 126 145 123 139 C120 146 120 152 121 157 Z" fill="#BFD8F2" opacity="0.8"/>
+<circle cx="76" cy="104" r="1.5" fill="#FFFFFF" opacity="0.85"/>
+<circle cx="126" cy="112" r="1.3" fill="#DCEBFF" opacity="0.8"/>
+<path d="M122 80 l1.3 3 3 1.3 -3 1.3 -1.3 3 -1.3 -3 -3 -1.3 3 -1.3 Z" fill="#FFFFFF" opacity="0.9"/>
+</svg>
